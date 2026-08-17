@@ -1,0 +1,11 @@
+V5.33 — Les Ombres d’Artémis
+
+Base : V5.31.
+
+Modifications :
+- Bifröst déplacé juste après Hestia ;
+- couvertures validées mises à jour : Freyja, Baldr, Máni, Mégara ;
+- retrait des mentions vétérinaires détaillées des fiches ;
+- conservation de la seule mention stérilisé/stérilisée lorsqu’elle s’applique ;
+- parrainage maintenu sur chaque fiche ;
+- mise en page validée conservée.

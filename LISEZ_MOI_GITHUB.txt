@@ -1,0 +1,22 @@
+LES OMBRES D'ARTEMIS — PACK GITHUB COMPLET V5.32
+
+1. Décompresser ce ZIP sur l'ordinateur.
+2. Dans le dépôt GitHub Pages, remplacer les fichiers par TOUT le contenu de ce dossier.
+3. Vérifier que index.html se trouve directement à la racine du dépôt.
+4. Commit changes.
+5. Attendre le déploiement GitHub Pages.
+6. Ouvrir le site public et faire un envoi TEST depuis le formulaire Contact.
+7. Ouvrir lesombresdartemis@gmail.com et cliquer sur le lien d'activation envoyé par FormSubmit. Vérifier les spams si nécessaire.
+8. Faire un second envoi test : le message doit alors arriver directement dans la boîte Gmail.
+
+V5.32 :
+- formulaire Contact réellement fonctionnel ;
+- destination : lesombresdartemis@gmail.com ;
+- confirmation d'envoi affichée sur le site ;
+- lien e-mail de secours en cas d'échec ;
+- liens Facebook / Instagram / HelloAsso et QR code conservés ;
+- les 3 fiches Bifröst et leurs photos conservées ;
+- compteur : 27 vies accompagnées / 6 adoptions finalisées ;
+- encart « Protégé de la semaine » toujours supprimé.
+
+IMPORTANT : FormSubmit est un service tiers. Le premier envoi sert à activer l'adresse destinataire.
