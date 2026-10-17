@@ -1,4 +1,4 @@
-<!-- V5.33: base V5.31 + continuité Hestia/Bifröst + couvertures actualisées + suppression des mentions vétérinaires détaillées -->
+<!-- V5.35 : mise à jour d’octobre 2026 — adoptions, nouvelles prises en charge et étoiles en filigrane -->
 <!DOCTYPE html>
 
 <html lang="fr">
@@ -6,7 +6,7 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <meta content="Les Ombres d'Artémis, association de protection féline à Ivry-sur-Seine : protégés, adoptions responsables, chroniques et façons de soutenir nos actions." name="description"/>
-<title>Les Ombres d’Artémis — Site V5.31</title>
+<title>Les Ombres d’Artémis — Site V5.35</title>
 <style>
 :root{
   --ink:#130c18;
@@ -187,8 +187,8 @@ footer a{color:#d7c9df}
 .flip-card-front img{width:100%;height:100%;min-height:430px;object-fit:cover;display:block}
 .animal-photo{width:100%;height:100%;min-height:430px;background-size:cover;background-position:center;background-repeat:no-repeat}
 .animal-photo-placeholder{width:100%;height:100%;min-height:430px;display:grid;place-items:center;background:linear-gradient(145deg,#1a202b,#333b4b);font-size:6rem;color:white;font-family:serif}
-.animal-photo-lisa,.profile-photo-lisa{background-image:url("image-001-b696b6e63a9a5355.jpg");background-position:28% center}
-.animal-photo-hestia,.profile-photo-hestia{background-image:url("image-002-155162cb334d17f4.jpg");background-position:center 38%}
+.animal-photo-lisa,.profile-photo-lisa{background-image:url("assets/images/image-001-b696b6e63a.jpg");background-position:28% center}
+.animal-photo-hestia,.profile-photo-hestia{background-image:url("assets/images/image-002-155162cb33.jpg");background-position:center 38%}
 .animal-card-overlay{position:absolute;inset:auto 0 0;padding:5rem 1.25rem 1.25rem;background:linear-gradient(transparent,rgba(5,8,12,.94));color:white}
 .animal-card-overlay h3{margin:.55rem 0 .25rem}
 .animal-card-overlay p{margin:0;opacity:.88}
@@ -515,6 +515,24 @@ pointer-events:none
  .nav-dropdown-menu{position:static;min-width:0;margin:4px 0 4px 12px;box-shadow:none;border-radius:12px;background:rgba(255,255,255,.04)}
  .compact-form .two-fields{grid-template-columns:1fr}
 }
+
+
+/* V5.34 — mise à jour septembre 2026 */
+.nursery-section{background:linear-gradient(180deg,#fbf7ff 0%,#fff 100%)}
+.nursery-intro{max-width:760px;color:var(--muted);margin:.35rem 0 1.6rem}
+.nursery-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.2rem}
+.nursery-card{overflow:hidden;border:1px solid rgba(132,75,139,.18);border-radius:24px;background:#fff;box-shadow:0 16px 34px rgba(64,40,72,.09)}
+.nursery-card img{display:block;width:100%;height:260px;object-fit:cover;background:#ebe5ef}
+.nursery-card-body{padding:1.25rem 1.3rem 1.4rem}
+.nursery-card h3{margin:.35rem 0 .55rem;color:var(--ink)}
+.nursery-card p{margin:.45rem 0;color:var(--muted)}
+.nursery-card ul{margin:.8rem 0 0;padding-left:1.15rem;color:var(--muted)}
+.nursery-card li+li{margin-top:.35rem}
+.care-badge{display:inline-flex;align-items:center;gap:.35rem;padding:.38rem .72rem;border-radius:999px;background:#efe3f3;color:#633969;font-weight:700;font-size:.83rem}
+.nursery-note{margin:1.25rem 0 0;padding:1rem 1.1rem;border-left:4px solid var(--accent);border-radius:12px;background:rgba(132,75,139,.08);color:var(--muted)}
+.profile-update{margin:.65rem 0 0;max-width:58ch;color:var(--muted);font-weight:600}
+@media (max-width:900px){.nursery-grid{grid-template-columns:1fr}.nursery-card img{height:min(62vw,360px)}}
+
 </style>
 <!-- V4.4 : structure de production épurée, Chroniques des portées supprimées, filtres combinés actifs. -->
 <style id="chatterie-media-styles">
@@ -532,26 +550,26 @@ pointer-events:none
 @media(max-width:800px){.chatterie-showcase{grid-template-columns:1fr}.chatterie-video-frame{width:min(100%,360px)}.chatterie-copy{text-align:left}}
 </style>
 <style id="canonical-profile-photos">
-.animal-photo-calliope,.profile-photo-calliope{background-image:url("image-003-062504ead94bcb17.jpg");background-position:center}
-.animal-photo-guenievre,.profile-photo-guenievre,.before-after-guenievre-now{background-image:url("image-004-2b4796810d61feb3.jpg");background-position:42% 64%}
-.animal-photo-perceval,.profile-photo-perceval{background-image:url("image-005-79bfaeb8bc154325.jpg");background-position:center 42%}
-.animal-photo-karadoc,.profile-photo-karadoc{background-image:url("image-006-34cf0d819c356783.jpg");background-position:48% 46%}
-.animal-photo-fenrir,.profile-photo-fenrir{background-image:url("image-007-e4e5e189e66edfac.jpg");background-position:center 42%;filter:brightness(1.08) contrast(1.02)}
-.animal-photo-hati,.profile-photo-hati{background-image:url("image-008-25f51ba5b96344e2.jpg");background-position:center 48%;filter:brightness(1.06)}
-.animal-photo-loki,.profile-photo-loki{background-image:url("image-009-86ad02ac290e6318.jpg");background-position:34% 24%;filter:brightness(1.08) contrast(1.02)}
-.animal-photo-hades,.profile-photo-hades{background-image:url("image-010-a8bf8676137da07b.jpg");background-position:center 42%}
-.animal-photo-megara,.profile-photo-megara{background-image:url("megara-cover-20260814.png");background-position:center 42%}
-.animal-photo-ron,.profile-photo-ron{background-image:url("image-012-f1b6366052c8cd1a.jpg");background-position:center 44%}
-.animal-photo-cleo,.profile-photo-cleo,.before-after-cleo-now{background-image:url("image-013-b765a21cb6a221b3.jpg")}
-.animal-photo-lisa,.profile-photo-lisa{background-image:url("image-014-b7e6ecdc3a10be17.jpg");background-position:center 43%;filter:brightness(1.05)}
-.animal-photo-sirius,.profile-photo-sirius{background-image:url("image-015-8118d5241736cfcf.jpg");background-position:42% center;filter:brightness(1.04)}
-.animal-photo-hermione,.profile-photo-hermione{background-image:url("image-016-01ce5a97b58fb5bb.jpg");background-position:center}
-.animal-photo-tigrou,.profile-photo-tigrou{background-image:url("image-017-a6821f7878ca48c8.jpg");background-position:center}
-.before-after-cleo-before{background-image:url("image-018-3d8e104763049056.jpg")}
-.before-after-guenievre-before{background-image:url("image-019-a9d3078e9d1f508a.jpg");background-position:center}
+.animal-photo-calliope,.profile-photo-calliope{background-image:url("assets/images/image-003-062504ead9.jpg");background-position:center}
+.animal-photo-guenievre,.profile-photo-guenievre,.before-after-guenievre-now{background-image:url("assets/images/image-004-2b4796810d.jpg");background-position:42% 64%}
+.animal-photo-perceval,.profile-photo-perceval{background-image:url("assets/images/image-005-79bfaeb8bc.jpg");background-position:center 42%}
+.animal-photo-karadoc,.profile-photo-karadoc{background-image:url("assets/images/image-006-34cf0d819c.jpg");background-position:48% 46%}
+.animal-photo-fenrir,.profile-photo-fenrir{background-image:url("assets/images/image-007-e4e5e189e6.jpg");background-position:center 42%;filter:brightness(1.08) contrast(1.02)}
+.animal-photo-hati,.profile-photo-hati{background-image:url("assets/images/image-008-25f51ba5b9.jpg");background-position:center 48%;filter:brightness(1.06)}
+.animal-photo-loki,.profile-photo-loki{background-image:url("assets/images/image-009-86ad02ac29.jpg");background-position:34% 24%;filter:brightness(1.08) contrast(1.02)}
+.animal-photo-hades,.profile-photo-hades{background-image:url("assets/images/image-010-a8bf867613.jpg");background-position:center 42%}
+.animal-photo-megara,.profile-photo-megara{background-image:url("assets/images/image-011-0265e39424.png");background-position:center 42%}
+.animal-photo-ron,.profile-photo-ron{background-image:url("assets/images/image-012-f1b6366052.jpg");background-position:center 44%}
+.animal-photo-cleo,.profile-photo-cleo,.before-after-cleo-now{background-image:url("assets/images/image-013-b765a21cb6.jpg")}
+.animal-photo-lisa,.profile-photo-lisa{background-image:url("assets/images/image-014-b7e6ecdc3a.jpg");background-position:center 43%;filter:brightness(1.05)}
+.animal-photo-sirius,.profile-photo-sirius{background-image:url("assets/images/image-015-8118d52417.jpg");background-position:42% center;filter:brightness(1.04)}
+.animal-photo-hermione,.profile-photo-hermione{background-image:url("assets/images/image-016-01ce5a97b5.jpg");background-position:center}
+.animal-photo-tigrou,.profile-photo-tigrou{background-image:url("assets/images/image-017-a6821f7878.jpg");background-position:center}
+.before-after-cleo-before{background-image:url("assets/images/image-018-3d8e104763.jpg")}
+.before-after-guenievre-before{background-image:url("assets/images/image-019-a9d3078e9d.jpg");background-position:center}
 .profile-evolution h3{margin-bottom:.8rem}.profile-evolution-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem}.profile-evolution figure{margin:0}.profile-evolution-photo{min-height:340px;border-radius:18px;background-size:cover;background-position:center;background-repeat:no-repeat;box-shadow:0 12px 28px rgba(38,27,53,.12)}.profile-evolution figcaption{margin-top:.45rem;text-align:center;font-weight:800;color:var(--violet)}.profile-evolution blockquote{margin:1rem 0 0;padding:1rem 1.15rem;border-left:4px solid var(--gold);background:rgba(216,179,106,.1);border-radius:0 14px 14px 0;font-style:italic}@media(max-width:620px){.profile-evolution-grid{grid-template-columns:1fr}.profile-evolution-photo{min-height:290px}}
-.animal-photo-arlequeen,.profile-photo-arlequeen{background-image:url("image-020-60fae8bb878ec5fe.jpg");background-position:center 46%;filter:brightness(1.03)}
-.animal-photo-hestia,.profile-photo-hestia{background-image:url("image-021-ea69e6d5fe4a17f2.jpg");background-position:center}
+.animal-photo-arlequeen,.profile-photo-arlequeen{background-image:url("assets/images/image-020-60fae8bb87.jpg");background-position:center 46%;filter:brightness(1.03)}
+.animal-photo-hestia,.profile-photo-hestia{background-image:url("assets/images/image-021-ea69e6d5fe.jpg");background-position:center}
 </style>
 <!-- Ajustements V4.4.7 : cadrage des visages sur les cartes et fiches -->
 <style>
@@ -730,9 +748,9 @@ pointer-events:none
 .first-shadows-photo .pair-now{object-position:50% 38%}
 @media(max-width:720px){.first-shadows-gallery,.founder-photo-pair{grid-template-columns:1fr}.first-shadows-photo img{aspect-ratio:1/1}}
 </style>
-<style id="v54-cover-photo-overrides">.animal-photo-megara{background-image:url("image-022-049d9cbf86e3a3cb.jpg")!important;}
-.animal-photo-perceval{background-image:url("image-023-8dd29f89aa1a6855.jpg")!important;}
-.animal-photo-cleo{background-image:url("image-024-4813cf3c6b238930.jpg")!important;}
+<style id="v54-cover-photo-overrides">.animal-photo-megara{background-image:url("assets/images/image-022-049d9cbf86.jpg")!important;}
+.animal-photo-perceval{background-image:url("assets/images/image-023-8dd29f89aa.jpg")!important;}
+.animal-photo-cleo{background-image:url("assets/images/image-024-4813cf3c6b.jpg")!important;}
 .animal-photo-megara{background-position:50% 28%!important;}
 .animal-photo-cleo{background-position:50% 32%!important;}
 .animal-photo-perceval{background-position:50% 30%!important;}
@@ -743,7 +761,7 @@ pointer-events:none
 .founder-individual-photo img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;background:#eee}
 .founder-individual-photo figcaption{padding:.78rem 1rem;text-align:center;font-weight:800;color:#6f3192}
 @media(max-width:680px){.founder-individual-gallery{grid-template-columns:1fr}.founder-individual-gallery:has(figure:only-child){grid-template-columns:1fr}.founder-individual-photo img{aspect-ratio:1/1}}
-</style><style id="v56-megara-photo-override">.animal-photo-megara{background-image:url("megara-cover-20260814.png")!important;background-position:50% 28%!important;}</style><style id="v57-apollon-nova-fixes">
+</style><style id="v56-megara-photo-override">.animal-photo-megara{background-image:url("assets/images/image-011-0265e39424.png")!important;background-position:50% 28%!important;}</style><style id="v57-apollon-nova-fixes">
 /* V5.7 : placement Apollon + recadrage visage Nova */
 #fondatrice-nova .founder-individual-photo img.nova-rencontre-crop{
   object-position:50% 18% !important;
@@ -753,7 +771,7 @@ pointer-events:none
 </style>
 <style id="v58-lisa-final-photos">
 .animal-photo-lisa{
-  background-image:url("image-025-cf81be6b48d24d71.jpg")!important;
+  background-image:url("assets/images/image-025-cf81be6b48.jpg")!important;
   background-position:50% 30%!important;
 }
 #profile-lisa .profile-photo-lisa{object-position:50% 30%!important;}
@@ -835,9 +853,9 @@ pointer-events:none
 }
 </style>
 <style id="bifrost-v526">
-.animal-photo-bifrost-1{background-image:url("bifrost-1.jpg");background-position:center}
-.animal-photo-bifrost-2{background-image:url("bifrost-2.jpg");background-position:center}
-.animal-photo-bifrost-3{background-image:url("bifrost-3.jpg");background-position:center}
+.animal-photo-bifrost-1{background-image:url("assets/images/image-026-37f574fd83.jpg");background-position:center}
+.animal-photo-bifrost-2{background-image:url("assets/images/image-027-27cc6f5635.jpg");background-position:center}
+.animal-photo-bifrost-3{background-image:url("assets/images/image-028-6faa5f3f0b.jpg");background-position:center}
 .profile-photo-bifrost{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:22px;background:#171b24;box-shadow:0 12px 30px rgba(20,10,28,.18)}
 .provisional-note{padding:.9rem 1rem;border-radius:14px;background:rgba(216,179,106,.12);border:1px solid rgba(216,179,106,.35);font-weight:700}
 </style>
@@ -849,6 +867,63 @@ pointer-events:none
 .animal-photo-megara{background-position:center 30%!important}
 .profile-photo-bifrost{object-position:center 30%}
 .profile-photo-megara{object-position:center 30%!important}
+
+
+/* V5.35 — nouvelles prises en charge */
+.nursery-placeholder{height:260px;display:grid;place-items:center;padding:1.5rem;text-align:center;background:radial-gradient(circle at 50% 30%,#9b78b3,#3b2348 58%,#17101d);color:#fff;font-family:Georgia,"Times New Roman",serif;font-size:1.35rem}
+.nursery-actions{display:flex;flex-wrap:wrap;gap:.65rem;margin-top:1rem}
+.nursery-actions .btn{min-height:42px;padding:0 16px;font-size:.9rem}
+.nursery-card-wide{grid-column:1/-1}
+.pet-gallery{display:grid;gap:.7rem;padding:.8rem;overflow-x:auto;background:#f3edf5}
+.pet-gallery-3{grid-template-columns:repeat(3,minmax(95px,1fr))}
+.pet-gallery-2{grid-template-columns:repeat(2,minmax(135px,1fr))}
+.pet-photo{margin:0;min-width:0}
+.nursery-card .pet-photo img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:16px;background:#e7ddeb}
+.pet-photo figcaption{padding:.48rem .25rem .1rem;text-align:center;color:#5f5264;font-size:.82rem;font-weight:700}
+.saya-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.7rem;padding:.8rem;background:#f3edf5}
+.saya-photo{margin:0;min-width:0}
+.nursery-card .saya-photo img{width:100%;height:auto;aspect-ratio:1;object-fit:cover;border-radius:16px;background:#e7ddeb}
+.saya-photo figcaption{padding:.48rem .25rem .1rem;text-align:center;color:#5f5264;font-size:.82rem;font-weight:700}
+/* Code couleur des statuts : vert disponible, ambre observation, prune soins, violet adoption. */
+.status.adopte,.status.adopte-vert,.profile-status.adopte,.profile-status.adopte-vert{background:#e9e2f4;color:#543c70;border-color:#c9b9dc}
+.adoption-ribbon{background:#543c70;box-shadow:0 6px 18px rgba(63,42,84,.38)}
+.care-badge{background:#efe3f3;color:#633969}
+@media(max-width:900px){.nursery-placeholder{height:min(62vw,360px)}.pet-gallery-3{grid-template-columns:repeat(3,minmax(120px,1fr))}.pet-gallery-2{grid-template-columns:repeat(2,minmax(150px,1fr))}.saya-gallery{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+</style>
+<style id="saya-mosaic-styles">
+.nursery-card-wide.saya-family-card{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:start}
+.saya-family-card .saya-mosaic{margin:0;padding:.8rem;background:#f3edf5}
+.nursery-card.saya-family-card .saya-mosaic img{display:block;width:100%;height:auto;max-height:none;aspect-ratio:auto;object-fit:contain;border-radius:16px}
+@media(max-width:700px){.nursery-card-wide.saya-family-card{display:block}}
+</style>
+
+<style id="memorial-stars-style">
+/* Seize étoiles : un hommage discret autour du logo d’accueil. */
+.hero-logo{position:relative;isolation:isolate}
+.hero-logo img{position:relative;z-index:2}
+.hero-logo-stars{position:absolute;left:50%;top:50%;width:min(100%,560px);aspect-ratio:1;transform:translate(-50%,-50%);z-index:3;pointer-events:none;user-select:none;color:var(--gold)}
+.hero-logo-stars span{position:absolute;line-height:1;opacity:.78;filter:drop-shadow(0 0 9px rgba(216,179,106,.58));text-shadow:0 0 14px rgba(216,179,106,.42)}
+.hero-logo-stars span:nth-child(1){left:7%;top:12%;font-size:1.12rem}
+.hero-logo-stars span:nth-child(2){left:18%;top:4%;font-size:.72rem;color:#d7b8f2}
+.hero-logo-stars span:nth-child(3){left:35%;top:1%;font-size:1.45rem}
+.hero-logo-stars span:nth-child(4){left:54%;top:0;font-size:.78rem;color:#d7b8f2}
+.hero-logo-stars span:nth-child(5){left:74%;top:5%;font-size:1.04rem}
+.hero-logo-stars span:nth-child(6){left:90%;top:14%;font-size:1.5rem}
+.hero-logo-stars span:nth-child(7){left:97%;top:31%;font-size:.76rem;color:#d7b8f2}
+.hero-logo-stars span:nth-child(8){left:98%;top:51%;font-size:1.2rem}
+.hero-logo-stars span:nth-child(9){left:92%;top:71%;font-size:.82rem;color:#d7b8f2}
+.hero-logo-stars span:nth-child(10){left:79%;top:89%;font-size:1.35rem}
+.hero-logo-stars span:nth-child(11){left:61%;top:97%;font-size:.76rem;color:#d7b8f2}
+.hero-logo-stars span:nth-child(12){left:42%;top:98%;font-size:1.18rem}
+.hero-logo-stars span:nth-child(13){left:23%;top:92%;font-size:.82rem;color:#d7b8f2}
+.hero-logo-stars span:nth-child(14){left:7%;top:79%;font-size:1.42rem}
+.hero-logo-stars span:nth-child(15){left:1%;top:59%;font-size:.72rem;color:#d7b8f2}
+.hero-logo-stars span:nth-child(16){left:1%;top:34%;font-size:1.08rem}
+@media(max-width:700px){
+  .hero-logo-stars{width:100%}
+  .hero-logo-stars span{opacity:.82;transform:scale(.9)}
+}
 </style>
 </head>
 <body>
@@ -856,13 +931,14 @@ pointer-events:none
 <a class="skip-link" href="#accueil">Aller au contenu</a>
 <header class="site-header">
 <a aria-label="Retour à l'accueil" class="brand" href="#accueil">
-<img alt="Logo Les Ombres d'Artémis" src="image-026-8b83b3517797f0a3.png"/>
+<img alt="Logo Les Ombres d'Artémis" src="assets/images/image-029-8b83b35177.png"/>
 <span>Les Ombres d'Artémis</span>
 </a>
 <button aria-controls="main-nav" aria-expanded="false" class="menu-toggle">☰</button>
 <nav class="main-nav" id="main-nav">
 <a href="#association">L'association</a>
 <a href="#proteges">Nos protégés</a>
+<a href="#tout-petits">Nos tout-petits</a>
 <a href="#chatterie">La chatterie</a>
 <a href="#chroniques">Chroniques</a>
 <a href="#besoins">Les Besoins des Ombres</a>
@@ -892,7 +968,13 @@ pointer-events:none
 </div>
 </div>
 <div class="hero-logo">
-<img alt="" src="image-026-8b83b3517797f0a3.png"/>
+<div aria-hidden="true" class="hero-logo-stars">
+<span>✦</span><span>✧</span><span>✦</span><span>✧</span>
+<span>✦</span><span>✦</span><span>✧</span><span>✦</span>
+<span>✧</span><span>✦</span><span>✧</span><span>✦</span>
+<span>✧</span><span>✦</span><span>✧</span><span>✦</span>
+</div>
+<img alt="" src="assets/images/image-029-8b83b35177.png"/>
 </div>
 </section>
 <section class="section" id="association">
@@ -927,7 +1009,7 @@ pointer-events:none
 <span>Création de l’association</span>
 </div>
 <div>
-<strong>27 vies accompagnées</strong>
+<strong>44 prises en charge</strong>
 <span>Depuis la création de l’association</span>
 </div>
 <div>
@@ -935,6 +1017,7 @@ pointer-events:none
 <span>Le bien-être de chaque animal</span>
 </div>
 </section>
+
 <section class="section" id="proteges">
 <div class="section-heading inline-heading">
 <div>
@@ -970,7 +1053,7 @@ pointer-events:none
 <div class="animal-card-overlay">
 <span class="status disponible">Disponible</span>
 <h3>Guenièvre</h3>
-<p>Femelle adulte, brown mackerel tabby &amp; white, au poil mi-long. Prise en charge avec ses deux chatons, Karadoc et Perceval.</p>
+<p>Très câline, bavarde et attentive, Guenièvre apprécie la présence humaine. Protectrice avec ses petits, elle avance aujourd’hui avec douceur et assurance.</p>
 <span class="flip-hint">Touchez pour voir sa fiche, l’adopter ou le parrainer</span>
 </div>
 </div>
@@ -996,232 +1079,25 @@ pointer-events:none
 </div>
 </article>
 <article aria-label="Hadès : retourner la carte pour afficher les actions" class="animal-card flip-card" data-status="disponible" tabindex="0">
-<div class="flip-card-inner">
-<div class="flip-card-front">
+<div class="flip-card-inner"><div class="flip-card-front">
 <button aria-label="Ajouter Hadès aux coups de cœur" aria-pressed="false" class="favorite-button" data-favorite="hades" type="button">♡</button>
 <div aria-label="Photo de Hadès" class="animal-photo animal-photo-hades" role="img"></div>
-<div class="animal-card-overlay">
-<span class="status disponible">Disponible</span>
-<h3>Hadès</h3>
-<p>Mâle brown mackerel tabby &amp; white à poil court, reconnaissable à sa petite marque sur le nez.</p>
-<span class="flip-hint">Touchez pour voir sa fiche, l’adopter ou le parrainer</span>
-</div>
-</div>
-<div class="flip-card-back">
-<p class="eyebrow">Les Ombres d’Artémis</p>
-<h3>Hadès</h3>
-<button class="flip-back-button" type="button">Revoir la photo</button>
-<nav aria-label="Actions pour Hadès" class="card-actions">
-<a class="card-action card-action-profile" data-profile-link="hades" href="#fiche-hades">
-<span aria-hidden="true">📖</span>
-<span>Accéder à sa fiche</span>
-</a>
-<a class="card-action card-action-adoption" data-adoption-link="hades" href="#adoption-hades">
-<span aria-hidden="true">♡</span>
-<span>L’adopter</span>
-</a>
-<a class="card-action card-action-sponsorship" data-sponsorship-link="hades" href="#parrainage-hades">
-<span aria-hidden="true">🤝</span>
-<span>Le parrainer</span>
-</a>
-</nav>
-</div>
-</div>
+<div class="animal-card-overlay"><span class="status disponible">Disponible</span><h3>Hadès</h3><p>Calme, observateur et affectueux, Hadès aime prendre le temps de comprendre avant de jouer ou de venir chercher la présence humaine.</p><span class="flip-hint">Touchez pour voir sa fiche, l’adopter ou le parrainer</span></div>
+</div><div class="flip-card-back"><p class="eyebrow">Les Ombres d’Artémis</p><h3>Hadès</h3><button class="flip-back-button" type="button">Revoir la photo</button><nav aria-label="Actions pour Hadès" class="card-actions"><a class="card-action card-action-profile" data-profile-link="hades" href="#fiche-hades"><span aria-hidden="true">📖</span><span>Accéder à sa fiche</span></a><a class="card-action card-action-adoption" data-adoption-link="hades" href="#adoption-hades"><span aria-hidden="true">♡</span><span>L’adopter</span></a><a class="card-action card-action-sponsorship" data-sponsorship-link="hades" href="#parrainage-hades"><span aria-hidden="true">🤝</span><span>Le parrainer</span></a></nav></div></div>
 </article>
-<article aria-label="Mégara : retourner la carte pour afficher les actions" class="animal-card flip-card" data-status="disponible" tabindex="0">
-<div class="flip-card-inner">
-<div class="flip-card-front">
-<button aria-label="Ajouter Mégara aux coups de cœur" aria-pressed="false" class="favorite-button" data-favorite="megara" type="button">♡</button>
-<div aria-label="Photo de Mégara" class="animal-photo animal-photo-megara" role="img"></div>
-<div class="animal-card-overlay">
-<span class="status disponible">Disponible</span>
-<h3>Mégara</h3>
-<p>Femelle brown mackerel tabby &amp; white à poil court, avec une socquette blanche et un collier blanc.</p>
-<span class="flip-hint">Touchez pour voir sa fiche, l’adopter ou le parrainer</span>
-</div>
-</div>
-<div class="flip-card-back">
-<p class="eyebrow">Les Ombres d’Artémis</p>
-<h3>Mégara</h3>
-<button class="flip-back-button" type="button">Revoir la photo</button>
-<nav aria-label="Actions pour Mégara" class="card-actions">
-<a class="card-action card-action-profile" data-profile-link="megara" href="#fiche-megara">
-<span aria-hidden="true">📖</span>
-<span>Accéder à sa fiche</span>
-</a>
-<a class="card-action card-action-adoption" data-adoption-link="megara" href="#adoption-megara">
-<span aria-hidden="true">♡</span>
-<span>L’adopter</span>
-</a>
-<a class="card-action card-action-sponsorship" data-sponsorship-link="megara" href="#parrainage-megara">
-<span aria-hidden="true">🤝</span>
-<span>Le parrainer</span>
-</a>
-</nav>
-</div>
-</div>
-</article>
-<article aria-label="Perceval : retourner la carte pour afficher les actions" class="animal-card flip-card" data-status="reserve" tabindex="0">
-<div class="flip-card-inner">
-<div class="flip-card-front">
+<article aria-label="Perceval : retourner la carte pour afficher les actions" class="animal-card flip-card" data-status="disponible" tabindex="0">
+<div class="flip-card-inner"><div class="flip-card-front">
 <button aria-label="Ajouter Perceval aux coups de cœur" aria-pressed="false" class="favorite-button" data-favorite="perceval" type="button">♡</button>
 <div aria-label="Photo de Perceval" class="animal-photo animal-photo-perceval" role="img"></div>
-<div class="animal-card-overlay">
-<span class="status reserve">Réservé</span>
-<h3>Perceval</h3>
-<p>Mâle lynx point au poil mi-long, avec des yeux très clairs et une robe encore en évolution.</p>
-<span class="flip-hint">Touchez pour voir sa fiche, l’adopter ou le parrainer</span>
-</div>
-</div>
-<div class="flip-card-back">
-<p class="eyebrow">Les Ombres d’Artémis</p>
-<h3>Perceval</h3>
-<button class="flip-back-button" type="button">Revoir la photo</button>
-<nav aria-label="Actions pour Perceval" class="card-actions">
-<a class="card-action card-action-profile" data-profile-link="perceval" href="#fiche-perceval">
-<span aria-hidden="true">📖</span>
-<span>Accéder à sa fiche</span>
-</a>
-<a class="card-action card-action-sponsorship" data-sponsorship-link="perceval" href="#parrainage-perceval">
-<span aria-hidden="true">🤝</span>
-<span>Le parrainer</span>
-</a>
-</nav>
-</div>
-</div>
-</article>
-<article aria-label="Karadoc : retourner la carte pour afficher les actions" class="animal-card flip-card" data-status="disponible" tabindex="0">
-<div class="flip-card-inner">
-<div class="flip-card-front">
-<button aria-label="Ajouter Karadoc aux coups de cœur" aria-pressed="false" class="favorite-button" data-favorite="karadoc" type="button">♡</button>
-<div aria-label="Photo de Karadoc" class="animal-photo animal-photo-karadoc" role="img"></div>
-<div class="animal-card-overlay">
-<span class="status disponible">Réservable</span>
-<h3>Karadoc</h3>
-<p>Mâle noir uni, né approximativement le 13 mai 2026. Frère de Perceval.</p>
-<span class="flip-hint">Touchez pour voir sa fiche, l’adopter ou le parrainer</span>
-</div>
-</div>
-<div class="flip-card-back">
-<p class="eyebrow">Les Ombres d’Artémis</p>
-<h3>Karadoc</h3>
-<button class="flip-back-button" type="button">Revoir la photo</button>
-<nav aria-label="Actions pour Karadoc" class="card-actions">
-<a class="card-action card-action-profile" data-profile-link="karadoc" href="#fiche-karadoc">
-<span aria-hidden="true">📖</span>
-<span>Accéder à sa fiche</span>
-</a>
-<a class="card-action card-action-adoption" data-adoption-link="karadoc" href="#adoption-karadoc">
-<span aria-hidden="true">♡</span>
-<span>L’adopter</span>
-</a>
-<a class="card-action card-action-sponsorship" data-sponsorship-link="karadoc" href="#parrainage-karadoc">
-<span aria-hidden="true">🤝</span>
-<span>Le parrainer</span>
-</a>
-</nav>
-</div>
-</div>
-</article>
-<article aria-label="Fenrir : retourner la carte pour afficher les actions" class="animal-card flip-card" data-status="disponible" tabindex="0">
-<div class="flip-card-inner">
-<div class="flip-card-front">
-<button aria-label="Ajouter Fenrir aux coups de cœur" aria-pressed="false" class="favorite-button" data-favorite="fenrir" type="button">♡</button>
-<div aria-label="Photo de Fenrir" class="animal-photo animal-photo-fenrir" role="img"></div>
-<div class="animal-card-overlay">
-<span class="status disponible">Réservable</span>
-<h3>Fenrir</h3>
-<p>Mâle noir ghost tabby, membre des Enfants du Ragnarök.</p>
-<span class="flip-hint">Touchez pour voir sa fiche, l’adopter ou le parrainer</span>
-</div>
-</div>
-<div class="flip-card-back">
-<p class="eyebrow">Les Ombres d’Artémis</p>
-<h3>Fenrir</h3>
-<button class="flip-back-button" type="button">Revoir la photo</button>
-<nav aria-label="Actions pour Fenrir" class="card-actions">
-<a class="card-action card-action-profile" data-profile-link="fenrir" href="#fiche-fenrir">
-<span aria-hidden="true">📖</span>
-<span>Accéder à sa fiche</span>
-</a>
-<a class="card-action card-action-adoption" data-adoption-link="fenrir" href="#adoption-fenrir">
-<span aria-hidden="true">♡</span>
-<span>L’adopter</span>
-</a>
-<a class="card-action card-action-sponsorship" data-sponsorship-link="fenrir" href="#parrainage-fenrir">
-<span aria-hidden="true">🤝</span>
-<span>Le parrainer</span>
-</a>
-</nav>
-</div>
-</div>
-</article>
-<article aria-label="Hati : retourner la carte pour afficher les actions" class="animal-card flip-card" data-status="disponible" tabindex="0">
-<div class="flip-card-inner">
-<div class="flip-card-front">
-<button aria-label="Ajouter Hati aux coups de cœur" aria-pressed="false" class="favorite-button" data-favorite="hati" type="button">♡</button>
-<div aria-label="Photo de Hati" class="animal-photo animal-photo-hati" role="img"></div>
-<div class="animal-card-overlay">
-<span class="status disponible">Réservable</span>
-<h3>Hati</h3>
-<p>Mâle noir, queue aux reflets smoke. Un petit regard singulier et beaucoup de personnalité.</p>
-<span class="flip-hint">Touchez pour voir sa fiche, l’adopter ou le parrainer</span>
-</div>
-</div>
-<div class="flip-card-back">
-<p class="eyebrow">Les Ombres d’Artémis</p>
-<h3>Hati</h3>
-<button class="flip-back-button" type="button">Revoir la photo</button>
-<nav aria-label="Actions pour Hati" class="card-actions">
-<a class="card-action card-action-profile" data-profile-link="hati" href="#fiche-hati">
-<span aria-hidden="true">📖</span>
-<span>Accéder à sa fiche</span>
-</a>
-<a class="card-action card-action-adoption" data-adoption-link="hati" href="#adoption-hati">
-<span aria-hidden="true">♡</span>
-<span>L’adopter</span>
-</a>
-<a class="card-action card-action-sponsorship" data-sponsorship-link="hati" href="#parrainage-hati">
-<span aria-hidden="true">🤝</span>
-<span>Le parrainer</span>
-</a>
-</nav>
-</div>
-</div>
+<div class="animal-card-overlay"><span class="status disponible">Disponible</span><h3>Perceval</h3><p>Curieux, joueur et affectueux, Perceval explore volontiers son environnement avant de revenir chercher jeux et câlins.</p><span class="flip-hint">Touchez pour voir sa fiche, l’adopter ou le parrainer</span></div>
+</div><div class="flip-card-back"><p class="eyebrow">Les Ombres d’Artémis</p><h3>Perceval</h3><button class="flip-back-button" type="button">Revoir la photo</button><nav aria-label="Actions pour Perceval" class="card-actions"><a class="card-action card-action-profile" data-profile-link="perceval" href="#fiche-perceval"><span aria-hidden="true">📖</span><span>Accéder à sa fiche</span></a><a class="card-action card-action-sponsorship" data-sponsorship-link="perceval" href="#parrainage-perceval"><span aria-hidden="true">🤝</span><span>Le parrainer</span></a></nav></div></div>
 </article>
 <article aria-label="Ron : retourner la carte pour afficher les actions" class="animal-card flip-card" data-status="disponible" tabindex="0">
-<div class="flip-card-inner">
-<div class="flip-card-front">
+<div class="flip-card-inner"><div class="flip-card-front">
 <button aria-label="Ajouter Ron aux coups de cœur" aria-pressed="false" class="favorite-button" data-favorite="ron" type="button">♡</button>
 <div aria-label="Photo de Ron" class="animal-photo animal-photo-ron" role="img"></div>
-<div class="animal-card-overlay">
-<span class="status disponible">Réservable</span>
-<h3>Ron</h3>
-<p>
-<strong>Les Audacieux.</strong> Mâle roux, red tabby. Encore jeune, il poursuit sa croissance et sa sociabilisation.</p>
-<span class="flip-hint">Touchez pour voir sa fiche, l’adopter ou le parrainer</span>
-</div>
-</div>
-<div class="flip-card-back">
-<p class="eyebrow">Les Ombres d’Artémis</p>
-<h3>Ron</h3>
-<button class="flip-back-button" type="button">Revoir la photo</button>
-<nav aria-label="Actions pour Ron" class="card-actions">
-<a class="card-action card-action-profile" data-profile-link="ron" href="#fiche-ron">
-<span aria-hidden="true">📖</span>
-<span>Accéder à sa fiche</span>
-</a>
-<a class="card-action card-action-adoption" data-adoption-link="ron" href="#adoption-ron">
-<span aria-hidden="true">♡</span>
-<span>L’adopter</span>
-</a>
-<a class="card-action card-action-sponsorship" data-sponsorship-link="ron" href="#parrainage-ron">
-<span aria-hidden="true">🤝</span>
-<span>Le parrainer</span>
-</a>
-</nav>
-</div>
-</div>
+<div class="animal-card-overlay"><span class="status disponible">Disponible</span><h3>Ron</h3><p>Très proche de l’humain, joueur et enthousiaste, Ron recherche volontiers présence, attention et affection.</p><span class="flip-hint">Touchez pour voir sa fiche, l’adopter ou le parrainer</span></div>
+</div><div class="flip-card-back"><p class="eyebrow">Les Audacieux</p><h3>Ron</h3><button class="flip-back-button" type="button">Revoir la photo</button><nav aria-label="Actions pour Ron" class="card-actions"><a class="card-action card-action-profile" data-profile-link="ron" href="#fiche-ron"><span aria-hidden="true">📖</span><span>Accéder à sa fiche</span></a><a class="card-action card-action-adoption" data-adoption-link="ron" href="#adoption-ron"><span aria-hidden="true">♡</span><span>L’adopter</span></a><a class="card-action card-action-sponsorship" data-sponsorship-link="ron" href="#parrainage-ron"><span aria-hidden="true">🤝</span><span>Le parrainer</span></a></nav></div></div>
 </article>
 <article aria-label="Cléo : retourner la carte pour afficher les actions" class="animal-card flip-card" data-status="disponible" tabindex="0">
 <div class="flip-card-inner">
@@ -1231,8 +1107,7 @@ pointer-events:none
 <div class="animal-card-overlay">
 <span class="status disponible">Adoptable</span>
 <h3>Cléo</h3>
-<p>
-<strong>Les Audacieux.</strong> Femelle brown mackerel tabby, née approximativement le 25 mai 2025. Stérilisée et disponible à l’adoption.</p>
+<p>Observatrice et affectueuse lorsqu’elle est en confiance, Cléo sait exprimer clairement ses limites, toujours sans méchanceté.</p>
 <span class="flip-hint">Touchez pour voir sa fiche, l’adopter ou le parrainer</span>
 </div>
 </div>
@@ -1257,33 +1132,43 @@ pointer-events:none
 </div>
 </div>
 </article>
-<article aria-label="Lisa : retourner la carte pour afficher les actions" class="animal-card flip-card" data-status="disponible observation" tabindex="0">
-<div class="flip-card-inner">
-<div class="flip-card-front">
+<article aria-label="Lisa : retourner la carte pour afficher les actions" class="animal-card flip-card" data-status="disponible" tabindex="0">
+<div class="flip-card-inner"><div class="flip-card-front">
 <button aria-label="Ajouter Lisa aux coups de cœur" aria-pressed="false" class="favorite-button" data-favorite="lisa" type="button">♡</button>
 <div aria-label="Photo de Lisa" class="animal-photo animal-photo-lisa" role="img"></div>
+<div class="animal-card-overlay"><span class="status disponible">Adoption en duo uniquement</span><h3>Lisa</h3><p>Vive, curieuse et affectueuse selon ses choix, Lisa est particulièrement attachée à Hestia. Elles sont proposées uniquement en duo.</p><span class="flip-hint">Touchez pour découvrir sa fiche et le duo</span></div>
+</div><div class="flip-card-back"><p class="eyebrow">Les Audacieux</p><h3>Lisa</h3><button class="flip-back-button" type="button">Revoir la photo</button><nav aria-label="Actions pour Lisa" class="card-actions"><a class="card-action card-action-profile" data-profile-link="lisa" href="#fiche-lisa"><span aria-hidden="true">📖</span><span>Accéder à sa fiche</span></a><a class="card-action card-action-adoption" href="#contact"><span aria-hidden="true">♡</span><span>Adopter le duo</span></a><a class="card-action card-action-sponsorship" data-sponsorship-link="lisa" href="#parrainage-lisa"><span aria-hidden="true">🤝</span><span>La parrainer</span></a></nav></div></div>
+</article>
+<article aria-label="Hestia : retourner la carte pour afficher les actions" class="animal-card flip-card" data-status="disponible" tabindex="0">
+<div class="flip-card-inner"><div class="flip-card-front">
+<button aria-label="Ajouter Hestia aux coups de cœur" aria-pressed="false" class="favorite-button" data-favorite="hestia" type="button">♡</button>
+<div aria-label="Hestia, jeune chatte tricolore" class="animal-photo animal-photo-hestia" role="img"></div>
+<div class="animal-card-overlay"><span class="status disponible">Adoption en duo uniquement</span><h3>Hestia</h3><p>Douce, observatrice et très sociable, Hestia s’entend avec les chats, les chiens et les humains respectueux. Elle est proposée uniquement avec Lisa.</p><span class="flip-hint">Touchez pour découvrir sa fiche et le duo</span></div>
+</div><div class="flip-card-back"><p class="eyebrow">Les Audacieux</p><h3>Hestia</h3><button class="flip-back-button" type="button">Revoir la photo</button><nav aria-label="Actions pour Hestia" class="card-actions"><a class="card-action card-action-profile" data-profile-link="hestia" href="#fiche-hestia"><span aria-hidden="true">📖</span><span>Accéder à sa fiche</span></a><a class="card-action card-action-adoption" href="#contact"><span aria-hidden="true">♡</span><span>Adopter le duo</span></a><a class="card-action card-action-sponsorship" data-sponsorship-link="hestia" href="#parrainage-hestia"><span aria-hidden="true">🤝</span><span>La parrainer</span></a></nav></div></div>
+</article>
+<article aria-label="Karadoc : retourner la carte pour afficher les actions" class="animal-card flip-card" data-status="adopte" tabindex="0">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<button aria-label="Ajouter Karadoc aux coups de cœur" aria-pressed="false" class="favorite-button" data-favorite="karadoc" type="button">♡</button>
+<div aria-label="Photo de Karadoc" class="animal-photo animal-photo-karadoc" role="img"></div>
+<span class="adoption-ribbon">A trouvé sa famille pour la vie</span>
 <div class="animal-card-overlay">
-<span class="status disponible">Réservable · en famille d’accueil</span>
-<h3>Lisa</h3>
-<p>
-<strong>Les Audacieux.</strong> Ne vous fiez pas à son air de petite panthère… Lisa est une boule d’affection qui aime explorer, jouer et partager le quotidien de ceux qu’elle aime.</p>
-<span class="flip-hint">Touchez pour voir sa fiche, l’adopter ou la parrainer</span>
+<span class="status adopte">Adopté</span>
+<h3>Karadoc</h3>
+<p>Doux, équilibré et très demandeur d’attention, Karadoc sait se faire remarquer avec son petit miaulement discret.</p>
+<span class="flip-hint">Touchez pour découvrir sa fiche et son histoire</span>
 </div>
 </div>
 <div class="flip-card-back">
 <p class="eyebrow">Les Ombres d’Artémis</p>
-<h3>Lisa</h3>
+<h3>Karadoc</h3>
 <button class="flip-back-button" type="button">Revoir la photo</button>
-<nav aria-label="Actions pour Lisa" class="card-actions">
-<a class="card-action card-action-profile" data-profile-link="lisa" href="#fiche-lisa">
+<nav aria-label="Actions pour Karadoc" class="card-actions">
+<a class="card-action card-action-profile" data-profile-link="karadoc" href="#fiche-karadoc">
 <span aria-hidden="true">📖</span>
 <span>Accéder à sa fiche</span>
 </a>
-<a class="card-action card-action-adoption" data-adoption-link="lisa" href="#adoption-lisa">
-<span aria-hidden="true">♡</span>
-<span>L’adopter</span>
-</a>
-<a class="card-action card-action-sponsorship" data-sponsorship-link="lisa" href="#parrainage-lisa">
+<a class="card-action card-action-sponsorship" data-sponsorship-link="karadoc" href="#parrainage-karadoc">
 <span aria-hidden="true">🤝</span>
 <span>Le parrainer</span>
 </a>
@@ -1291,51 +1176,88 @@ pointer-events:none
 </div>
 </div>
 </article>
-<article aria-label="Hestia : retourner la carte pour afficher les actions" class="animal-card flip-card" data-status="observation" tabindex="0">
+<article aria-label="Fenrir : retourner la carte pour afficher les actions" class="animal-card flip-card" data-status="adopte" tabindex="0">
 <div class="flip-card-inner">
 <div class="flip-card-front">
-<button aria-label="Ajouter Hestia aux coups de cœur" aria-pressed="false" class="favorite-button" data-favorite="hestia" type="button">♡</button>
-<div aria-label="Hestia, jeune chatte tricolore" class="animal-photo animal-photo-hestia" role="img"></div>
+<button aria-label="Ajouter Fenrir aux coups de cœur" aria-pressed="false" class="favorite-button" data-favorite="fenrir" type="button">♡</button>
+<div aria-label="Photo de Fenrir" class="animal-photo animal-photo-fenrir" role="img"></div>
+<span class="adoption-ribbon">A trouvé sa famille pour la vie</span>
 <div class="animal-card-overlay">
-<span class="status observation">En observation</span>
-<h3>Hestia</h3>
-<p>Impossible de résister au charme d’Hestia. Son regard pétillant, sa curiosité sans limite et sa douceur font d’elle une petite aventurière qui illumine chaque journée.</p>
-<span class="flip-hint">Touchez pour découvrir sa fiche ou la parrainer</span>
+<span class="status adopte">Adopté</span>
+<h3>Fenrir</h3>
+<p>Curieux, joueur et proche de l’humain, Fenrir alterne volontiers explorations et moments de tendresse.</p>
+<span class="flip-hint">Touchez pour découvrir sa fiche et son histoire</span>
 </div>
 </div>
 <div class="flip-card-back">
-<p class="eyebrow">Les Audacieux</p>
-<h3>Hestia</h3>
+<p class="eyebrow">Les Ombres d’Artémis</p>
+<h3>Fenrir</h3>
 <button class="flip-back-button" type="button">Revoir la photo</button>
-<nav aria-label="Actions pour Hestia" class="card-actions">
-<a class="card-action card-action-profile" data-profile-link="hestia" href="#fiche-hestia">
+<nav aria-label="Actions pour Fenrir" class="card-actions">
+<a class="card-action card-action-profile" data-profile-link="fenrir" href="#fiche-fenrir">
 <span aria-hidden="true">📖</span>
 <span>Accéder à sa fiche</span>
 </a>
-<a class="card-action card-action-sponsorship" data-sponsorship-link="hestia" href="#parrainage-hestia">
+<a class="card-action card-action-sponsorship" data-sponsorship-link="fenrir" href="#parrainage-fenrir">
 <span aria-hidden="true">🤝</span>
-<span>La parrainer</span>
+<span>Le parrainer</span>
 </a>
 </nav>
 </div>
 </div>
-</article><article aria-label="Freyja : retourner la carte pour afficher les actions" class="animal-card flip-card" data-status="observation" tabindex="0">
+</article>
+<article aria-label="Hati : retourner la carte pour afficher les actions" class="animal-card flip-card" data-status="adopte" tabindex="0">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<button aria-label="Ajouter Hati aux coups de cœur" aria-pressed="false" class="favorite-button" data-favorite="hati" type="button">♡</button>
+<div aria-label="Photo de Hati" class="animal-photo animal-photo-hati" role="img"></div>
+<span class="adoption-ribbon">A trouvé sa famille pour la vie</span>
+<div class="animal-card-overlay">
+<span class="status adopte">Adopté</span>
+<h3>Hati</h3>
+<p>Curieux et joueur, Hati apprécie la présence humaine tout en préférant garder le contrôle des contacts et ne pas être porté.</p>
+<span class="flip-hint">Touchez pour découvrir sa fiche et son histoire</span>
+</div>
+</div>
+<div class="flip-card-back">
+<p class="eyebrow">Les Ombres d’Artémis</p>
+<h3>Hati</h3>
+<button class="flip-back-button" type="button">Revoir la photo</button>
+<nav aria-label="Actions pour Hati" class="card-actions">
+<a class="card-action card-action-profile" data-profile-link="hati" href="#fiche-hati">
+<span aria-hidden="true">📖</span>
+<span>Accéder à sa fiche</span>
+</a>
+<a class="card-action card-action-sponsorship" data-sponsorship-link="hati" href="#parrainage-hati">
+<span aria-hidden="true">🤝</span>
+<span>Le parrainer</span>
+</a>
+</nav>
+</div>
+</div>
+</article>
+<article aria-label="Freyja : retourner la carte pour afficher les actions" class="animal-card flip-card" data-status="adopte" tabindex="0">
 <div class="flip-card-inner"><div class="flip-card-front">
 <button aria-label="Ajouter Freyja aux coups de cœur" aria-pressed="false" class="favorite-button" data-favorite="bifrost-1" type="button">♡</button>
 <div aria-label="Photo de Freyja" class="animal-photo animal-photo-bifrost-1" role="img"></div>
-<div class="animal-card-overlay"><span class="status observation">En observation</span><h3>Freyja</h3><p>Femelle blue tortie, poil court · Très affectueuse, à mettre en confiance.</p><span class="flip-hint">Touchez pour découvrir sa fiche</span></div>
+<span class="adoption-ribbon">A trouvé sa famille pour la vie</span>
+<div class="animal-card-overlay"><span class="status adopte adopte-vert">Adoptée</span><h3>Freyja</h3><p>Très affectueuse et proche de l’humain, Freyja recherche volontiers le contact, la présence et les moments de tendresse.</p><span class="flip-hint">Touchez pour découvrir sa fiche et son histoire</span></div>
 </div><div class="flip-card-back"><p class="eyebrow">Les Enfants de Bifröst</p><h3>Freyja</h3><button class="flip-back-button" type="button">Revoir la photo</button><nav aria-label="Actions pour Freyja" class="card-actions"><a class="card-action card-action-profile" data-profile-link="bifrost-1" href="#fiche-bifrost-1"><span aria-hidden="true">📖</span><span>Accéder à sa fiche</span></a></nav></div></div>
-</article><article aria-label="Baldr : retourner la carte pour afficher les actions" class="animal-card flip-card" data-status="observation" tabindex="0">
+</article>
+<article aria-label="Baldr : retourner la carte pour afficher les actions" class="animal-card flip-card" data-status="adopte" tabindex="0">
 <div class="flip-card-inner"><div class="flip-card-front">
 <button aria-label="Ajouter Baldr aux coups de cœur" aria-pressed="false" class="favorite-button" data-favorite="bifrost-2" type="button">♡</button>
 <div aria-label="Photo de Baldr" class="animal-photo animal-photo-bifrost-2" role="img"></div>
-<div class="animal-card-overlay"><span class="status observation">En observation</span><h3>Baldr</h3><p>Mâle brown mackerel tabby &amp; white, poil court · Véritable boule de câlins.</p><span class="flip-hint">Touchez pour découvrir sa fiche</span></div>
+<span class="adoption-ribbon">A trouvé sa famille pour la vie</span>
+<div class="animal-card-overlay"><span class="status adopte">Adopté</span><h3>Baldr</h3><p>Véritable boule de câlins, Baldr va facilement vers l’humain et apprécie particulièrement les interactions.</p><span class="flip-hint">Touchez pour découvrir sa fiche et son histoire</span></div>
 </div><div class="flip-card-back"><p class="eyebrow">Les Enfants de Bifröst</p><h3>Baldr</h3><button class="flip-back-button" type="button">Revoir la photo</button><nav aria-label="Actions pour Baldr" class="card-actions"><a class="card-action card-action-profile" data-profile-link="bifrost-2" href="#fiche-bifrost-2"><span aria-hidden="true">📖</span><span>Accéder à sa fiche</span></a></nav></div></div>
-</article><article aria-label="Máni : retourner la carte pour afficher les actions" class="animal-card flip-card" data-status="observation" tabindex="0">
+</article>
+<article aria-label="Máni : retourner la carte pour afficher les actions" class="animal-card flip-card" data-status="adopte" tabindex="0">
 <div class="flip-card-inner"><div class="flip-card-front">
 <button aria-label="Ajouter Máni aux coups de cœur" aria-pressed="false" class="favorite-button" data-favorite="bifrost-3" type="button">♡</button>
 <div aria-label="Photo de Máni" class="animal-photo animal-photo-bifrost-3" role="img"></div>
-<div class="animal-card-overlay"><span class="status observation">En observation</span><h3>Máni</h3><p>Mâle brown mackerel tabby, poil court · Calme, posé et grand amateur de siestes.</p><span class="flip-hint">Touchez pour découvrir sa fiche</span></div>
+<span class="adoption-ribbon">A trouvé sa famille pour la vie</span>
+<div class="animal-card-overlay"><span class="status adopte adopte-vert">Adopté</span><h3>Máni</h3><p>Calme, posé et grand amateur de siestes, Máni aime profiter du quotidien à son rythme.</p><span class="flip-hint">Touchez pour découvrir sa fiche et son histoire</span></div>
 </div><div class="flip-card-back"><p class="eyebrow">Les Enfants de Bifröst</p><h3>Máni</h3><button class="flip-back-button" type="button">Revoir la photo</button><nav aria-label="Actions pour Máni" class="card-actions"><a class="card-action card-action-profile" data-profile-link="bifrost-3" href="#fiche-bifrost-3"><span aria-hidden="true">📖</span><span>Accéder à sa fiche</span></a></nav></div></div>
 </article>
 <article aria-label="Loki : retourner la carte pour afficher les actions" class="animal-card flip-card" data-status="adopte" tabindex="0">
@@ -1343,11 +1265,11 @@ pointer-events:none
 <div class="flip-card-front">
 <button aria-label="Ajouter Loki aux coups de cœur" aria-pressed="false" class="favorite-button" data-favorite="loki" type="button">♡</button>
 <div aria-label="Photo de Loki" class="animal-photo animal-photo-loki" role="img"></div>
-<span class="adoption-ribbon">A trouvé sa famille</span>
+<span class="adoption-ribbon">A trouvé sa famille pour la vie</span>
 <div class="animal-card-overlay">
 <span class="status adopte adopte-vert">Adopté</span>
 <h3>Loki</h3>
-<p>Mâle noir, grand spécialiste du câlin et du ronron immédiat. Loki a trouvé sa famille pour la vie.</p>
+<p>Curieux, joueur et très câlin, Loki transforme chaque nouveauté en exploration avant de revenir chercher la présence humaine.</p>
 <span class="flip-hint">Touchez pour découvrir sa fiche et son histoire</span>
 </div>
 </div>
@@ -1363,16 +1285,17 @@ pointer-events:none
 </nav>
 </div>
 </div>
-</article><article aria-label="Sirius : retourner la carte pour afficher les actions" class="animal-card flip-card" data-status="adopte" tabindex="0">
+</article>
+<article aria-label="Sirius : retourner la carte pour afficher les actions" class="animal-card flip-card" data-status="adopte" tabindex="0">
 <div class="flip-card-inner">
 <div class="flip-card-front">
 <button aria-label="Ajouter Sirius aux coups de cœur" aria-pressed="false" class="favorite-button" data-favorite="sirius" type="button">♡</button>
 <div aria-label="Photo de Sirius" class="animal-photo animal-photo-sirius" role="img"></div>
-<span class="adoption-ribbon">A trouvé sa famille</span>
+<span class="adoption-ribbon">A trouvé sa famille pour la vie</span>
 <div class="animal-card-overlay">
 <span class="status adopte adopte-vert">Adoptée</span>
 <h3>Sirius</h3>
-<p>Femelle aux marbrures smoke et aux éclats argentés.</p>
+<p>Calme et attentive, Sirius observe d’abord son environnement. Une fois en confiance, elle partage volontiers jeux et tendresse.</p>
 <span class="flip-hint">Touchez pour découvrir sa fiche</span>
 </div>
 </div>
@@ -1394,11 +1317,11 @@ pointer-events:none
 <div class="flip-card-front">
 <button aria-label="Ajouter Hermione aux coups de cœur" aria-pressed="false" class="favorite-button" data-favorite="hermione" type="button">♡</button>
 <div aria-label="Photo de Hermione" class="animal-photo animal-photo-hermione" role="img"></div>
-<span class="adoption-ribbon">A trouvé sa famille</span>
+<span class="adoption-ribbon">A trouvé sa famille pour la vie</span>
 <div class="animal-card-overlay">
 <span class="status adopte adopte-vert">Adoptée</span>
 <h3>Hermione</h3>
-<p>Femelle au marquage argenté.</p>
+<p>Curieuse, attentive et proche de l’humain, Hermione aime comprendre ce qui l’entoure avant d’alterner jeux et câlins.</p>
 <span class="flip-hint">Touchez pour découvrir sa fiche</span>
 </div>
 </div>
@@ -1420,11 +1343,11 @@ pointer-events:none
 <div class="flip-card-front">
 <button aria-label="Ajouter Arlequeen aux coups de cœur" aria-pressed="false" class="favorite-button" data-favorite="arlequeen" type="button">♡</button>
 <div aria-label="Photo d’Arlequeen" class="animal-photo animal-photo-arlequeen" role="img"></div>
-<span class="adoption-ribbon">A trouvé sa famille</span>
+<span class="adoption-ribbon">A trouvé sa famille pour la vie</span>
 <div class="animal-card-overlay">
 <span class="status adopte adopte-vert">Adoptée</span>
 <h3>Arlequeen</h3>
-<p>Femelle très câline, véritable pot de colle.</p>
+<p>Très câline et profondément attachée à la présence humaine, Arlequeen aime vivre au plus près de ceux qu’elle aime.</p>
 <span class="flip-hint">Touchez pour découvrir sa fiche</span>
 </div>
 </div>
@@ -1446,11 +1369,11 @@ pointer-events:none
 <div class="flip-card-front">
 <button aria-label="Ajouter Tigrou aux coups de cœur" aria-pressed="false" class="favorite-button" data-favorite="tigrou" type="button">♡</button>
 <div aria-label="Photo de Tigrou" class="animal-photo animal-photo-tigrou" role="img"></div>
-<span class="adoption-ribbon">A trouvé sa famille</span>
+<span class="adoption-ribbon">A trouvé sa famille pour la vie</span>
 <div class="animal-card-overlay">
 <span class="status adopte adopte-vert">Adoptée</span>
 <h3>Tigrou</h3>
-<p>Femelle brown mackerel tabby.</p>
+<p>Énergique, curieuse et joueuse, Tigrou transforme chaque objet et chaque recoin en nouvelle aventure.</p>
 <span class="flip-hint">Touchez pour découvrir sa fiche</span>
 </div>
 </div>
@@ -1472,11 +1395,11 @@ pointer-events:none
 <div class="flip-card-front">
 <button aria-label="Ajouter Calliope aux coups de cœur" aria-pressed="false" class="favorite-button" data-favorite="calliope" type="button">♡</button>
 <div aria-label="Photo de Calliope" class="animal-photo animal-photo-calliope" role="img"></div>
-<span class="adoption-ribbon">A trouvé sa famille</span>
+<span class="adoption-ribbon">A trouvé sa famille pour la vie</span>
 <div class="animal-card-overlay">
 <span class="status adopte">Adopté</span>
 <h3>Calliope</h3>
-<p>Mâle bleu et blanc. Une belle adoption devenue l’un des premiers chapitres de l’association.</p>
+<p>Calme, doux et très proche de l’humain, Calliope apprécie les caresses et les moments paisibles partagés.</p>
 <span class="flip-hint">Touchez pour voir sa fiche, l’adopter ou le parrainer</span>
 </div>
 </div>
@@ -1493,8 +1416,82 @@ pointer-events:none
 </div>
 </div>
 </article>
+<article aria-label="Mégara : retourner la carte pour afficher les actions" class="animal-card flip-card" data-status="observation" tabindex="0">
+<div class="flip-card-inner">
+<div class="flip-card-front">
+<button aria-label="Ajouter Mégara aux coups de cœur" aria-pressed="false" class="favorite-button" data-favorite="megara" type="button">♡</button>
+<div aria-label="Photo de Mégara" class="animal-photo animal-photo-megara" role="img"></div>
+<div class="animal-card-overlay">
+<span class="status observation">En soins</span>
+<h3>Mégara</h3>
+<p>Douce et observatrice, Mégara préfère d’abord prendre le temps de découvrir. Une fois en confiance, elle se révèle joueuse, curieuse et très câline.</p>
+<span class="flip-hint">Touchez pour découvrir sa fiche ou la parrainer</span>
+</div>
+</div>
+<div class="flip-card-back">
+<p class="eyebrow">Les Ombres d’Artémis</p>
+<h3>Mégara</h3>
+<button class="flip-back-button" type="button">Revoir la photo</button>
+<nav aria-label="Actions pour Mégara" class="card-actions">
+<a class="card-action card-action-profile" data-profile-link="megara" href="#fiche-megara">
+<span aria-hidden="true">📖</span>
+<span>Accéder à sa fiche</span>
+</a>
+<a class="card-action card-action-sponsorship" data-sponsorship-link="megara" href="#parrainage-megara">
+<span aria-hidden="true">🤝</span>
+<span>Le parrainer</span>
+</a>
+</nav>
+</div>
+</div>
+</article>
 </div>
 </section>
+
+
+
+<section class="section nursery-section" id="tout-petits">
+<div class="section-heading">
+<p class="eyebrow">Accompagnement renforcé</p>
+<h2>Nos tout-petits en soins</h2>
+<p class="nursery-intro">Ces jeunes protégés ont encore besoin de soins, de biberonnage ou d’un suivi rapproché. Ils ne sont pas proposés à l’adoption tant que leur situation ne le permet pas.</p>
+</div>
+<div class="nursery-grid">
+<article class="nursery-card">
+<img alt="Portrait de Drusilla" loading="lazy" src="assets/images/image-030-fa883349c7.jpg"/>
+<div class="nursery-card-body">
+<span class="care-badge">💊 En soins</span>
+<h3>Les Ombres de Sunnydale</h3>
+<p><strong>Drusilla</strong>, née autour du <strong>4 septembre 2026</strong>, a été confiée à l’association avec Spike le <strong>23 septembre 2026</strong>, après un accueil relais par Hygiène Action Tremblay.</p>
+<p>Drusilla poursuit actuellement ses soins et reste sous surveillance vétérinaire renforcée.</p>
+<p>Leur prise en charge a alourdi des frais vétérinaires déjà importants. Le point financier provisoire est présenté dans la rubrique « Nous soutenir ».</p>
+<p>Drusilla n’est pas proposée à l’adoption actuellement.</p>
+<div class="nursery-actions"><a class="btn secondary" href="#parrainage">Parrainer Drusilla</a><a class="btn secondary" href="https://www.helloasso.com/associations/les-ombres-d-artemis" rel="noopener noreferrer" target="_blank">Soutenir ses soins</a></div>
+</div>
+</article>
+
+<article class="nursery-card nursery-card-wide saya-family-card">
+<figure class="saya-mosaic">
+<img alt="Saya et les Petits Esprits : Saya en haut, puis Haku et Hauru, Chihiro et Kiki, avec leurs prénoms sous chaque portrait" loading="lazy" decoding="async" width="1024" height="1536" src="assets/images/image-031-d7af4be687.png"/>
+</figure>
+<div class="nursery-card-body">
+<span class="care-badge">🏡 En famille d’accueil</span>
+<h3>Saya et les Petits Esprits</h3>
+<p>Une maman et ses quatre petits, accueillis ensemble pour écrire la suite de leur histoire. Avec leurs prénoms inspirés de l’univers Ghibli, <strong>Haku, Hauru, Chihiro et Kiki</strong> deviennent nos <strong>Petits Esprits</strong>.</p>
+<p>La famille est accueillie en famille d’accueil dans le 93. <strong>Saya</strong>, leur maman, aurait environ <strong>un an</strong> et présente une robe <strong>brown tabby et blanc</strong>.</p>
+<p>Les quatre chatons sont nés le <strong>5 août 2026</strong>, selon la date communiquée par leur ancienne propriétaire :</p>
+<ul>
+<li><strong>Haku</strong> — mâle <strong>black &amp; white bicolore, type tuxedo</strong> ;</li>
+<li><strong>Hauru</strong> — mâle <strong>brown tabby et blanc</strong> ;</li>
+<li><strong>Chihiro</strong> — femelle <strong>brown tabby</strong> ;</li>
+<li><strong>Kiki</strong> — femelle <strong>black solid</strong>, noir uni.</li>
+</ul>
+<p>Les descriptions de robe restent provisoires. Leurs portraits individuels seront complétés au fil des observations de leur famille d’accueil.</p>
+</div>
+</article>
+</div>
+</section>
+
 <section class="section chatterie-section" id="chatterie">
 <div class="section-heading">
 <p class="eyebrow">Au cœur de l’association</p>
@@ -1528,18 +1525,6 @@ Votre navigateur ne permet pas de lire cette vidéo.
 </div>
 <div class="chronicle-grid">
 <article>
-<span aria-hidden="true" class="moon">◐</span>
-<h3>Les Héritiers d’Avalon</h3>
-<p>Guenièvre, Karadoc et Perceval</p>
-<blockquote>« Après les épreuves, renaître pour écrire une nouvelle histoire. »</blockquote>
-</article>
-<article>
-<span aria-hidden="true" class="moon">◑</span>
-<h3>Les Enfants du Ragnarök</h3>
-<p>Fenrir, Hati et Loki</p>
-<blockquote>« Même après la tempête, une nouvelle histoire peut commencer. »</blockquote>
-</article>
-<article>
 <span aria-hidden="true" class="moon">◒</span>
 <h3>Les Âmes Nomades</h3>
 <p>Arlequeen, Hermione, Sirius et Tigrou</p>
@@ -1552,15 +1537,58 @@ Votre navigateur ne permet pas de lire cette vidéo.
 <blockquote>« Veiller aujourd’hui pour protéger demain. »</blockquote>
 </article>
 <article>
+<span aria-hidden="true" class="moon">◑</span>
+<h3>Les Enfants du Ragnarök</h3>
+<p>Fenrir, Hati et Loki</p>
+<blockquote>« Même après la tempête, une nouvelle histoire peut commencer. »</blockquote>
+</article>
+<article>
 <span aria-hidden="true" class="moon">●</span>
 <h3>Les Audacieux</h3>
-<p>Cléo, Lisa et Ron — prises en charge individuelles réunies sous une même bannière.</p>
+<p>Cléo, Lisa, Hestia, Ron et Minia-Thor — prises en charge individuelles réunies sous une même bannière.</p>
+<blockquote>« Des histoires uniques, réunies sous une même lumière. »</blockquote>
+</article>
+<article>
+<span aria-hidden="true" class="moon">◐</span>
+<h3>Les Héritiers d’Avalon</h3>
+<p>Guenièvre, Karadoc et Perceval</p>
+<blockquote>« Après les épreuves, renaître pour écrire une nouvelle histoire. »</blockquote>
 </article>
 <article>
 <span aria-hidden="true" class="moon">◔</span>
 <h3>Les Enfants de Bifröst</h3>
-<p>Freyja, Baldr et Máni · en observation au sein de l’association.</p>
+<p>Freyja, Baldr et Máni — trois histoires qui se poursuivent désormais auprès de leurs familles.</p>
 <blockquote>« Trois nouvelles vies à accompagner, trois histoires encore à écrire. »</blockquote>
+</article>
+<article>
+<span aria-hidden="true" class="moon">◕</span>
+<h3>Les enfants de Machu</h3>
+<p>Poro, Jinx, Vi, Silco, Vlad et Mini Machu — six chatons accompagnés et aimés jusqu’au bout.</p>
+<blockquote>« Six petites lumières réunies dans notre histoire. »</blockquote>
+</article>
+<article>
+<span aria-hidden="true" class="moon">◍</span>
+<h3>Les Enfants de Gotham</h3>
+<p>Robin, Ivy et Bruce — trois caractères et une même histoire, désormais réunis parmi nos étoiles.</p>
+<blockquote>« Trois petites ombres liées pour toujours. »</blockquote>
+</article>
+<article>
+<span aria-hidden="true" class="moon">◌</span>
+<h3>Les Mandragores</h3>
+<p>Cinq tout-petits pris en charge après leur sortie de fourrière.</p>
+<blockquote>« Cinq petites vies confiées à la même lumière. »</blockquote>
+</article>
+<article>
+<span aria-hidden="true" class="moon">◐</span>
+<h3>Les Ombres de Sunnydale</h3>
+<p>Spike et Drusilla ont été pris en charge ensemble après leur sortie de fourrière. Drusilla poursuit aujourd’hui ses soins, entourée et accompagnée.</p>
+<blockquote>« Leur lien demeure, sous les étoiles de Sunnydale. »</blockquote>
+</article>
+<article>
+<span aria-hidden="true" class="moon">◉</span>
+<h3>Les Petits Esprits</h3>
+<p>Saya et ses quatre chatons, Haku, Hauru, Chihiro et Kiki, accueillis ensemble en famille d’accueil. Un clin d’œil à l’univers Ghibli.</p>
+<blockquote>« Une maman et ses petits, accompagnés sans les séparer. »</blockquote>
 </article>
 </div>
 </section>
@@ -1688,7 +1716,7 @@ Votre navigateur ne permet pas de lire cette vidéo.
 <div>
 <p class="founder-kicker">Rebelle</p>
 <h3>La Première Rencontre</h3>
-<blockquote>« Certaines histoires commencent sans que l’on sache qu’elles changeront une vie. »</blockquote><div aria-label="Photos de Rebelle" class="founder-individual-gallery"><figure class="founder-individual-photo"><img alt="Rebelle lors de sa rencontre" class="rebelle-rencontre-final" loading="lazy" src="image-028-21ac4f0035e9d981.jpg"/><figcaption>La rencontre 🌙</figcaption></figure><figure class="founder-individual-photo"><img alt="Rebelle aujourd’hui" class="rebelle-aujourdhui-final" loading="lazy" src="image-029-2728b2957ebbe213.jpg"/><figcaption>Aujourd’hui ✨</figcaption></figure></div>
+<blockquote>« Certaines histoires commencent sans que l’on sache qu’elles changeront une vie. »</blockquote><div aria-label="Photos de Rebelle" class="founder-individual-gallery"><figure class="founder-individual-photo"><img alt="Rebelle lors de sa rencontre" class="rebelle-rencontre-final" loading="lazy" src="assets/images/image-032-21ac4f0035.jpg"/><figcaption>La rencontre 🌙</figcaption></figure><figure class="founder-individual-photo"><img alt="Rebelle aujourd’hui" class="rebelle-aujourdhui-final" loading="lazy" src="assets/images/image-033-2728b2957e.jpg"/><figcaption>Aujourd’hui ✨</figcaption></figure></div>
 <h4>Son histoire</h4>
 <p>En novembre 2020, Rebelle entre dans la vie de Marion. Sans le savoir, elle devient la première pierre d’une aventure qui, plusieurs années plus tard, prendra le nom des Ombres d’Artémis.</p>
 <p>Avec son tempérament, sa fidélité et sa présence quotidienne, elle rappelle qu’un animal n’est jamais simplement de passage. Il devient un membre de la famille, un repère et parfois le point de départ de grandes décisions.</p>
@@ -1705,7 +1733,7 @@ Votre navigateur ne permet pas de lire cette vidéo.
 <div>
 <p class="founder-kicker">Némésis</p>
 <h3>Le Coup de Cœur</h3>
-<blockquote>« Certaines rencontres ressemblent à des retrouvailles. »</blockquote><div aria-label="Photos de Némésis" class="founder-individual-gallery"><figure class="founder-individual-photo"><img alt="Némésis lors de sa rencontre" class="" loading="lazy" src="image-030-18974b4fc1ae93cc.jpg"/><figcaption>La rencontre 🌙</figcaption></figure><figure class="founder-individual-photo"><img alt="Némésis aujourd’hui" class="" loading="lazy" src="image-031-214eb36c40978d96.jpg"/><figcaption>Aujourd’hui ✨</figcaption></figure></div>
+<blockquote>« Certaines rencontres ressemblent à des retrouvailles. »</blockquote><div aria-label="Photos de Némésis" class="founder-individual-gallery"><figure class="founder-individual-photo"><img alt="Némésis lors de sa rencontre" class="" loading="lazy" src="assets/images/image-034-18974b4fc1.jpg"/><figcaption>La rencontre 🌙</figcaption></figure><figure class="founder-individual-photo"><img alt="Némésis aujourd’hui" class="" loading="lazy" src="assets/images/image-035-214eb36c40.jpg"/><figcaption>Aujourd’hui ✨</figcaption></figure></div>
 <h4>Son histoire</h4>
 <p>Arrivée en juin 2023, Némésis complète naturellement la famille. Sa complicité avec Rebelle renforce l’idée qu’un foyer se construit avec le temps, chaque nouvel arrivant apportant sa propre place.</p>
 <h4>Ce qu’elle nous a appris</h4>
@@ -1721,7 +1749,7 @@ Votre navigateur ne permet pas de lire cette vidéo.
 <div>
 <p class="founder-kicker">Asmodée</p>
 <h3>Le Nouveau Chapitre</h3>
-<blockquote>« Derrière chaque nouvelle page se cache une rencontre qui semblait ordinaire. »</blockquote><div aria-label="Photos de Asmodée" class="founder-individual-gallery"><figure class="founder-individual-photo"><img alt="Asmodée aujourd’hui" class="" loading="lazy" src="image-032-aa2ea4309e3af95a.jpg"/><figcaption>Aujourd’hui ✨</figcaption></figure></div>
+<blockquote>« Derrière chaque nouvelle page se cache une rencontre qui semblait ordinaire. »</blockquote><div aria-label="Photos de Asmodée" class="founder-individual-gallery"><figure class="founder-individual-photo"><img alt="Asmodée aujourd’hui" class="" loading="lazy" src="assets/images/image-036-aa2ea4309e.jpg"/><figcaption>Aujourd’hui ✨</figcaption></figure></div>
 <h4>Son histoire</h4>
 <p>Asmodée rejoint JB en mai 2024. Sa présence marque le début d’une nouvelle façon de vivre avec un chat, d’observer son langage et de comprendre ses besoins.</p>
 <p>Elle deviendra, sans le savoir, l’une des inspirations des futures Ombres d’Artémis.</p>
@@ -1738,7 +1766,7 @@ Votre navigateur ne permet pas de lire cette vidéo.
 <div>
 <p class="founder-kicker">Artémis</p>
 <h3>L’Évidence</h3>
-<blockquote>« Certaines familles se reconnaissent dès le premier regard. »</blockquote><div aria-label="Photos de Artémis" class="founder-individual-gallery"><figure class="founder-individual-photo"><img alt="Artémis lors de sa rencontre, encore chaton" class="" loading="lazy" src="image-033-e999cda5580bc9ac.jpg"/><figcaption>La rencontre 🌙</figcaption></figure><figure class="founder-individual-photo"><img alt="Artémis aujourd’hui" class="" loading="lazy" src="image-034-4f1a9d6295b4420d.jpg" style="object-position:76% 48%;"/><figcaption>Aujourd’hui ✨</figcaption></figure></div>
+<blockquote>« Certaines familles se reconnaissent dès le premier regard. »</blockquote><div aria-label="Photos de Artémis" class="founder-individual-gallery"><figure class="founder-individual-photo"><img alt="Artémis lors de sa rencontre, encore chaton" class="" loading="lazy" src="assets/images/image-037-e999cda558.jpg"/><figcaption>La rencontre 🌙</figcaption></figure><figure class="founder-individual-photo"><img alt="Artémis aujourd’hui" class="" loading="lazy" src="assets/images/image-038-4f1a9d6295.jpg" style="object-position:76% 48%;"/><figcaption>Aujourd’hui ✨</figcaption></figure></div>
 <h4>Son histoire</h4>
 <p>En janvier 2026, Marion rencontre Artémis. À peine installée dans ses bras, la petite chatte ronronne puis s’endort contre elle.</p>
 <p>Ce moment d’une simplicité désarmante donnera plus tard son nom à l’association. Les Ombres d’Artémis étaient nées dans les cœurs avant leur déclaration officielle.</p>
@@ -1756,7 +1784,7 @@ Votre navigateur ne permet pas de lire cette vidéo.
 <p class="founder-kicker">Apollon</p>
 <h3>L’Inattendu</h3>
 <blockquote>« Les plus belles décisions sont parfois celles que l’on n’avait pas prévues. »</blockquote>
-<div aria-label="Photos de Apollon" class="founder-individual-gallery"><figure class="founder-individual-photo"><img alt="Apollon lors de sa rencontre, encore chaton" class="" loading="lazy" src="image-035-673387792ad90cb9.jpg"/><figcaption>La rencontre 🌙</figcaption></figure><figure class="founder-individual-photo"><img alt="Apollon aujourd’hui" class="" loading="lazy" src="image-034-4f1a9d6295b4420d.jpg" style="object-position:24% 58%;"/><figcaption>Aujourd’hui ✨</figcaption></figure></div><h4>Son histoire</h4>
+<div aria-label="Photos de Apollon" class="founder-individual-gallery"><figure class="founder-individual-photo"><img alt="Apollon lors de sa rencontre, encore chaton" class="" loading="lazy" src="assets/images/image-039-673387792a.jpg"/><figcaption>La rencontre 🌙</figcaption></figure><figure class="founder-individual-photo"><img alt="Apollon aujourd’hui" class="" loading="lazy" src="assets/images/image-038-4f1a9d6295.jpg" style="object-position:24% 58%;"/><figcaption>Aujourd’hui ✨</figcaption></figure></div><h4>Son histoire</h4>
 <p>Venu accompagner Artémis, Apollon ne devait pas forcément rejoindre la famille. Puis l’idée de séparer le frère et la sœur devient impensable. Il rentre lui aussi à la maison.</p>
 <p>Il rappelle que certaines décisions prises avec le cœur deviennent les meilleures.</p>
 <h4>Ce qu’il nous a appris</h4>
@@ -1772,7 +1800,7 @@ Votre navigateur ne permet pas de lire cette vidéo.
 <div>
 <p class="founder-kicker">Nova</p>
 <h3>La Relève</h3>
-<blockquote>« Une histoire continue de grandir tant qu’on continue de l’écrire. »</blockquote><div aria-label="Photos de Nova" class="founder-individual-gallery"><figure class="founder-individual-photo"><img alt="Nova lors de sa rencontre" class="nova-rencontre-crop" loading="lazy" src="image-036-88f71bd7bac0de5c.jpg" style=""/><figcaption>La rencontre 🌙</figcaption></figure><figure class="founder-individual-photo"><img alt="Nova aujourd’hui" class="" loading="lazy" src="image-037-00072e0b9e87e601.jpg"/><figcaption>Aujourd’hui ✨</figcaption></figure></div>
+<blockquote>« Une histoire continue de grandir tant qu’on continue de l’écrire. »</blockquote><div aria-label="Photos de Nova" class="founder-individual-gallery"><figure class="founder-individual-photo"><img alt="Nova lors de sa rencontre" class="nova-rencontre-crop" loading="lazy" src="assets/images/image-040-88f71bd7ba.jpg" style=""/><figcaption>La rencontre 🌙</figcaption></figure><figure class="founder-individual-photo"><img alt="Nova aujourd’hui" class="" loading="lazy" src="assets/images/image-041-00072e0b9e.jpg"/><figcaption>Aujourd’hui ✨</figcaption></figure></div>
 <h4>Son histoire</h4>
 <p>Nova arrive après la création des Ombres d’Artémis. Elle n’est pas à l’origine de l’association : elle représente sa continuité.</p>
 <p>Elle grandit avec elle, au rythme des sauvetages, des adoptions et des nouvelles histoires qui s’écrivent.</p>
@@ -1791,6 +1819,7 @@ Votre navigateur ne permet pas de lire cette vidéo.
 </div>
 </details>
 </section>
+
 <section class="section dark-section" id="adopter">
 <div class="section-heading">
 <p class="eyebrow">Adopter</p>
@@ -1851,6 +1880,19 @@ Votre navigateur ne permet pas de lire cette vidéo.
 <p>Contribuer à ses soins, son alimentation et son bien-être jusqu’à son adoption.</p>
 <a href="#parrainage">Choisir un protégé</a>
 </article>
+<article class="financial-update">
+<h3>Point sur les frais vétérinaires</h3>
+<p>Au <strong>16 octobre 2026</strong>, les frais vétérinaires restant à couvrir atteignent <strong>5 072,18 €</strong>.</p>
+<ul>
+<li><strong>Crozatier : 1 871,50 €</strong> pour Minia-Thor et l’hospitalisation de Spike et Drusilla ;</li>
+<li><strong>Domvet : 1 617 €</strong> rattachés au compte personnel utilisé avant la création de la fiche de l’association ;</li>
+<li><strong>Domvet : 583,43 €</strong> rattachés au compte de l’association ;</li>
+<li><strong>Domvet : 600,25 € supplémentaires</strong> pour les prises en charge de Gotham et de Sunnydale, dont 60,30 € pour la pose de la sonde nasogastrique de Spike ;</li>
+<li><strong>Traitement de Mégara : 400 €</strong>.</li>
+</ul>
+<p>Le décompte est exact selon notre suivi actuel. Certains justificatifs Crozatier ne nous ayant pas encore été transmis, leur ventilation détaillée sera complétée à réception des factures.</p>
+<a href="https://www.helloasso.com/associations/les-ombres-d-artemis" rel="noopener noreferrer" target="_blank">Participer aux soins</a>
+</article>
 </div>
 </section>
 <section class="section dark-section" id="parrainage">
@@ -1876,11 +1918,11 @@ Votre navigateur ne permet pas de lire cette vidéo.
 </div>
 <div aria-label="Indicateurs de l'association" class="impact-grid">
 <article>
-<strong data-impact="protected">27</strong>
+<strong data-impact="protected">44</strong>
 <span>vies accompagnées</span>
 </article>
 <article>
-<strong data-impact="adopted">6</strong>
+<strong data-impact="adopted">12</strong>
 <span>adoptions finalisées</span>
 </article>
 <article>
@@ -1908,7 +1950,7 @@ Votre navigateur ne permet pas de lire cette vidéo.
 <a aria-label="Envoyer un e-mail aux Ombres d'Artémis" href="mailto:lesombresdartemis@gmail.com">✉ lesombresdartemis@gmail.com</a>
 </div>
 <div class="contact-qr">
-<img alt="QR code Les Ombres d'Artémis" src="qr-code-ombres-artemis.jpg"/>
+<img alt="QR code Les Ombres d'Artémis" src="assets/images/image-042-487f617800.jpg"/>
 <p>Scannez le QR code pour retrouver Les Ombres d’Artémis depuis votre téléphone.</p>
 </div>
 </div>
@@ -1964,7 +2006,7 @@ Votre navigateur ne permet pas de lire cette vidéo.
 <label>Disponibilités et précisions<textarea name="message" required="" rows="5"></textarea></label>
 <button class="btn primary" type="submit">Préparer ma candidature</button>
 <small>Le bouton prépare un e-mail avec les informations saisies. L’adresse officielle de l’association sera à confirmer avant la mise en ligne.</small>
-</form></div><div class="profile-actions"><a class="btn secondary" download="" href="Formulaire_devenir_famille_accueil_Ombres_Artemis.pdf">Télécharger le formulaire PDF</a></div></dialog>
+</form></div><div class="profile-actions"><a class="btn secondary" download="" href="Formulaire_devenir_famille_accueil_Ombres_Artemis.pdf">Télécharger le formulaire de candidature</a><a class="btn secondary" download="" href="Contrat_famille_accueil_Ombres_Artemis.pdf">Consulter le contrat type</a></div></dialog>
 <dialog aria-labelledby="signalement-title" class="action-dialog" id="signalement">
 <button aria-label="Fermer" class="profile-close action-close" type="button">×</button>
 <div class="action-dialog-inner">
@@ -1999,7 +2041,7 @@ Votre navigateur ne permet pas de lire cette vidéo.
 </section>
 <section>
 <h3>Portrait</h3>
-<p>Guenièvre est une jeune chatte au pelage mi-long, prise en charge par Les Ombres d’Artémis avec ses deux chatons, Karadoc et Perceval.</p>
+<p>Très câline, bavarde et attentive, Guenièvre apprécie la présence humaine. Protectrice avec ses petits, elle avance aujourd’hui avec douceur et assurance.</p>
 <p>Après avoir dû survivre livrée à elle-même, elle a enfin pu être mise à l’abri avec ses petits. Sa prise en charge marque le début d’une reconstruction familiale, dans un environnement sécurisé et bienveillant.</p>
 <p>Protectrice et attentive, Guenièvre avance désormais à son rythme. Son histoire met avant tout en lumière sa résilience et le lien qui l’unit à Karadoc et Perceval.</p>
 </section>
@@ -2023,7 +2065,7 @@ Votre navigateur ne permet pas de lire cette vidéo.
 <p>👧 Enfants</p>
 <p>✔️ À l’aise avec des enfants respectueux.</p>
 </section>
-<section aria-label="Évolution avant et aujourd’hui" class="evolution-v5"><h3>Son évolution</h3><div class="evolution-labels"><span>🌙 Avant</span><span class="evolution-arrow">← →</span><span>Aujourd’hui ✨</span></div><div class="evolution-grid"><figure><img alt="Guenievre avant sa prise en charge" loading="lazy" src="image-019-a9d3078e9d1f508a.jpg"/></figure><figure><img alt="Guenievre aujourd’hui" loading="lazy" src="image-038-5a51529db6d28148.jpg"/></figure></div></section><section>
+<section aria-label="Évolution avant et aujourd’hui" class="evolution-v5"><h3>Son évolution</h3><div class="evolution-labels"><span>🌙 Avant</span><span class="evolution-arrow">← →</span><span>Aujourd’hui ✨</span></div><div class="evolution-grid"><figure><img alt="Guenievre avant sa prise en charge" loading="lazy" src="assets/images/image-019-a9d3078e9d.jpg"/></figure><figure><img alt="Guenievre aujourd’hui" loading="lazy" src="assets/images/image-043-5a51529db6.jpg"/></figure></div></section><section>
 <h3>Le mot de Guenièvre</h3>
 <p>"Pendant longtemps, mon rôle a été de protéger mes petits. Aujourd'hui, je découvre qu'il existe aussi des humains qui prennent soin de moi. C'est une nouvelle vie qui commence, et j'espère qu'elle sera enfin plus douce."</p>
 </section>
@@ -2058,12 +2100,12 @@ Votre navigateur ne permet pas de lire cette vidéo.
 <dialog aria-labelledby="profile-title-hades" class="profile-dialog" data-status="disponible" id="profile-hades">
 <button aria-label="Fermer" class="profile-close" type="button">×</button>
 <div class="profile-hero">
-<img alt="Photo de Hadès" class="profile-photo profile-photo-hades profile-photo-img" src="image-010-a8bf8676137da07b.jpg" style="object-position:45% 28%;"/>
+<img alt="Photo de Hadès" class="profile-photo profile-photo-hades profile-photo-img" src="assets/images/image-010-a8bf867613.jpg" style="object-position:45% 28%;"/>
 <div>
 <p class="eyebrow">Les Veilleurs</p>
 <h2 id="profile-title-hades">Hadès</h2>
 <p class="profile-subtitle">Le Gardien des Veilleurs</p>
-<span class="profile-status disponible">Disponible</span>
+<span class="profile-status disponible">Disponible</span><p class="profile-update">Calme, observateur et affectueux, Hadès est un grand jeune mâle brown mackerel tabby &amp; white. Joueur et proche de l’humain, il vit sereinement avec les chats et les chiens et se montre à l’aise avec les enfants respectueux.</p>
 <blockquote>« La force tranquille inspire davantage que le bruit. »</blockquote>
 </div>
 </div>
@@ -2097,7 +2139,7 @@ Votre navigateur ne permet pas de lire cette vidéo.
 <p>👧 Enfants</p>
 <p>✔️ À l’aise avec des enfants respectueux.</p>
 </section>
-<section aria-label="Évolution avant et aujourd’hui" class="evolution-v5"><h3>Son évolution</h3><div class="evolution-labels"><span>🌙 Avant</span><span class="evolution-arrow">← →</span><span>Aujourd’hui ✨</span></div><div class="evolution-grid"><figure><img alt="Hades avant sa prise en charge" class="evolution-photo evolution-before evolution-hades" loading="lazy" src="image-039-8636d06a553bf6bc.jpg"/></figure><figure><img alt="Hades aujourd’hui" class="evolution-photo evolution-now evolution-hades" loading="lazy" src="image-040-8b524fa39f842aba.jpg"/></figure></div></section><section>
+<section aria-label="Évolution avant et aujourd’hui" class="evolution-v5"><h3>Son évolution</h3><div class="evolution-labels"><span>🌙 Avant</span><span class="evolution-arrow">← →</span><span>Aujourd’hui ✨</span></div><div class="evolution-grid"><figure><img alt="Hades avant sa prise en charge" class="evolution-photo evolution-before evolution-hades" loading="lazy" src="assets/images/image-044-8636d06a55.jpg"/></figure><figure><img alt="Hades aujourd’hui" class="evolution-photo evolution-now evolution-hades" loading="lazy" src="assets/images/image-045-8b524fa39f.jpg"/></figure></div></section><section>
 <h3>Le mot de Hadès</h3>
 <p>"J'aime comprendre avant d'agir. Observer, découvrir puis revenir chercher une caresse. Je ne suis jamais très loin des humains, parce qu'une aventure, c'est encore mieux lorsqu'on peut la partager."</p>
 </section>
@@ -2128,15 +2170,15 @@ Votre navigateur ne permet pas de lire cette vidéo.
 <a class="btn secondary" href="#parrainage">Le parrainer</a>
 </div>
 </dialog>
-<dialog aria-labelledby="profile-title-megara" class="profile-dialog" data-status="disponible" id="profile-megara">
+<dialog aria-labelledby="profile-title-megara" class="profile-dialog" data-status="observation" id="profile-megara">
 <button aria-label="Fermer" class="profile-close" type="button">×</button>
 <div class="profile-hero">
-<img alt="Photo de Mégara" class="profile-photo profile-photo-megara profile-photo-img" src="megara-cover-20260814.png" style="object-position:50% 28%;"/>
+<img alt="Photo de Mégara" class="profile-photo profile-photo-megara profile-photo-img" src="assets/images/image-011-0265e39424.png" style="object-position:50% 28%;"/>
 <div>
 <p class="eyebrow">Les Veilleurs</p>
 <h2 id="profile-title-megara">Mégara</h2>
 <p class="profile-subtitle">Le Cœur Courageux</p>
-<span class="profile-status disponible">Disponible</span>
+<span class="profile-status observation">En soins</span>
 <blockquote>« La douceur est parfois la plus belle des forces. »</blockquote>
 </div>
 </div>
@@ -2171,7 +2213,7 @@ Votre navigateur ne permet pas de lire cette vidéo.
 <p>👧 Enfants</p>
 <p>✔️ À l’aise avec des enfants respectueux.</p>
 </section>
-<section aria-label="Évolution avant et aujourd’hui" class="evolution-v5"><h3>Son évolution</h3><div class="evolution-labels"><span>🌙 Avant</span><span class="evolution-arrow">← →</span><span>Aujourd’hui ✨</span></div><div class="evolution-grid"><figure><img alt="Megara avant sa prise en charge" class="evolution-photo evolution-before evolution-megara" loading="lazy" src="image-041-8570c36ddceec0f6.jpg"/></figure><figure><img alt="Megara aujourd’hui" class="evolution-photo evolution-now evolution-megara" loading="lazy" src="megara-cover-20260814.png" style="object-position:50% 28%;"/></figure></div></section><section>
+<section aria-label="Évolution avant et aujourd’hui" class="evolution-v5"><h3>Son évolution</h3><div class="evolution-labels"><span>🌙 Avant</span><span class="evolution-arrow">← →</span><span>Aujourd’hui ✨</span></div><div class="evolution-grid"><figure><img alt="Megara avant sa prise en charge" class="evolution-photo evolution-before evolution-megara" loading="lazy" src="assets/images/image-046-8570c36ddc.jpg"/></figure><figure><img alt="Megara aujourd’hui" class="evolution-photo evolution-now evolution-megara" loading="lazy" src="assets/images/image-011-0265e39424.png" style="object-position:50% 28%;"/></figure></div></section><section>
 <h3>Le mot de Mégara</h3>
 <p>"Je préfère prendre le temps de découvrir les choses. Une fois en confiance, j'aime jouer, recevoir des caresses et partager le quotidien de ceux qui prennent soin de moi."</p>
 </section>
@@ -2201,15 +2243,16 @@ Votre navigateur ne permet pas de lire cette vidéo.
 <a class="btn secondary" href="#parrainage">Le parrainer</a>
 </div>
 </dialog>
-<dialog aria-labelledby="profile-title-perceval" class="profile-dialog" data-status="reserve" id="profile-perceval">
+<dialog aria-labelledby="profile-title-perceval" class="profile-dialog" data-status="disponible" id="profile-perceval">
 <button aria-label="Fermer" class="profile-close" type="button">×</button>
 <div class="profile-hero">
-<img alt="Photo de Perceval" class="profile-photo profile-photo-perceval profile-photo-img" src="image-005-79bfaeb8bc154325.jpg" style="object-position:50% 25%;"/>
+<img alt="Photo de Perceval" class="profile-photo profile-photo-perceval profile-photo-img" src="assets/images/image-005-79bfaeb8bc.jpg" style="object-position:50% 25%;"/>
 <div>
 <p class="eyebrow">Les Héritiers d'Avalon</p>
 <h2 id="profile-title-perceval">Perceval</h2>
 <p class="profile-subtitle">Le Chevalier Candide</p>
-<span class="profile-status reserve">Réservé</span>
+<span class="profile-status disponible">Disponible à l’adoption</span>
+<p class="profile-update">Curieux, joueur et affectueux, Perceval est un jeune mâle lynx point au poil mi-long. Sociable, il grandit entouré de chats et se montre à l’aise avec les enfants respectueux. Il est disponible à l’adoption.</p>
 <blockquote>« La curiosité ouvre les portes des plus belles aventures. »</blockquote>
 </div>
 </div>
@@ -2244,7 +2287,7 @@ Votre navigateur ne permet pas de lire cette vidéo.
 <p>👧 Enfants</p>
 <p>✔️ À l’aise avec des enfants respectueux.</p>
 </section>
-<section aria-label="Évolution avant et aujourd’hui" class="evolution-v5"><h3>Son évolution</h3><div class="evolution-labels"><span>🌙 Avant</span><span class="evolution-arrow">← →</span><span>Aujourd’hui ✨</span></div><div class="evolution-grid"><figure><img alt="Perceval avant sa prise en charge" class="evolution-photo evolution-before evolution-perceval" loading="lazy" src="image-042-962d91ea0454bec0.jpg"/></figure><figure><img alt="Perceval aujourd’hui" class="evolution-photo evolution-now evolution-perceval" loading="lazy" src="image-023-8dd29f89aa1a6855.jpg"/></figure></div></section><section>
+<section aria-label="Évolution avant et aujourd’hui" class="evolution-v5"><h3>Son évolution</h3><div class="evolution-labels"><span>🌙 Avant</span><span class="evolution-arrow">← →</span><span>Aujourd’hui ✨</span></div><div class="evolution-grid"><figure><img alt="Perceval avant sa prise en charge" class="evolution-photo evolution-before evolution-perceval" loading="lazy" src="assets/images/image-047-962d91ea04.jpg"/></figure><figure><img alt="Perceval aujourd’hui" class="evolution-photo evolution-now evolution-perceval" loading="lazy" src="assets/images/image-023-8dd29f89aa.jpg"/></figure></div></section><section>
 <h3>Le mot de Perceval</h3>
 <p>"Je découvre encore tout. Les jouets, les humains, les autres chats... Chaque journée est une aventure. Et si tu t'assois quelques minutes, il y a de fortes chances que je vienne voir ce que tu fais."</p>
 </section>
@@ -2275,15 +2318,16 @@ Votre navigateur ne permet pas de lire cette vidéo.
 <a class="btn secondary" href="#parrainage">Le parrainer</a>
 </div>
 </dialog>
-<dialog aria-labelledby="profile-title-karadoc" class="profile-dialog" data-status="disponible" id="profile-karadoc">
+<dialog aria-labelledby="profile-title-karadoc" class="profile-dialog" data-status="adopte" id="profile-karadoc">
 <button aria-label="Fermer" class="profile-close" type="button">×</button>
 <div class="profile-hero">
-<img alt="Photo de Karadoc" class="profile-photo profile-photo-karadoc profile-photo-img" src="image-006-34cf0d819c356783.jpg" style="object-position:23% 34%;"/>
+<img alt="Photo de Karadoc" class="profile-photo profile-photo-karadoc profile-photo-img" src="assets/images/image-006-34cf0d819c.jpg" style="object-position:23% 34%;"/>
 <div>
 <p class="eyebrow">Les Héritiers d'Avalon</p>
 <h2 id="profile-title-karadoc">Karadoc</h2>
 <p class="profile-subtitle">Le Bon Vivant</p>
-<span class="profile-status disponible">Réservable</span>
+<span class="profile-status adopte">Adopté</span>
+<p class="profile-update">Adopté le 18 septembre 2026 par Clément dans les Hauts-de-Seine (92). Il s’appelle désormais Fore.</p>
 <blockquote>« Le bonheur se trouve souvent dans un bon repas... et un câlin de plus. »</blockquote>
 </div>
 </div>
@@ -2319,7 +2363,7 @@ Votre navigateur ne permet pas de lire cette vidéo.
 <p>👧 Enfants</p>
 <p>✔️ À l’aise avec des enfants respectueux.</p>
 </section>
-<section aria-label="Évolution avant et aujourd’hui" class="evolution-v5"><h3>Son évolution</h3><div class="evolution-labels"><span>🌙 Avant</span><span class="evolution-arrow">← →</span><span>Aujourd’hui ✨</span></div><div class="evolution-grid"><figure><img alt="Karadoc avant sa prise en charge" class="evolution-photo evolution-before evolution-karadoc" loading="lazy" src="image-043-6f31e5d55cc133c2.jpg"/></figure><figure><img alt="Karadoc aujourd’hui" class="evolution-photo evolution-now evolution-karadoc" loading="lazy" src="image-044-5c7f1ec3781fcc23.png"/></figure></div></section><section>
+<section aria-label="Évolution avant et aujourd’hui" class="evolution-v5"><h3>Son évolution</h3><div class="evolution-labels"><span>🌙 Avant</span><span class="evolution-arrow">← →</span><span>Aujourd’hui ✨</span></div><div class="evolution-grid"><figure><img alt="Karadoc avant sa prise en charge" class="evolution-photo evolution-before evolution-karadoc" loading="lazy" src="assets/images/image-048-6f31e5d55c.jpg"/></figure><figure><img alt="Karadoc aujourd’hui" class="evolution-photo evolution-now evolution-karadoc" loading="lazy" src="assets/images/image-049-5c7f1ec378.png"/></figure></div></section><section>
 <h3>Le mot de Karadoc</h3>
 <p>"J'aime jouer avec mon frère, suivre maman partout et découvrir tout ce qui m'entoure. Mais après toutes ces aventures, rien ne vaut une bonne sieste ou quelques caresses pour recharger les batteries."</p>
 </section>
@@ -2351,15 +2395,16 @@ Votre navigateur ne permet pas de lire cette vidéo.
 <a class="btn secondary" href="#parrainage">Le parrainer</a>
 </div>
 </dialog>
-<dialog aria-labelledby="profile-title-fenrir" class="profile-dialog" data-status="disponible" id="profile-fenrir">
+<dialog aria-labelledby="profile-title-fenrir" class="profile-dialog" data-status="adopte" id="profile-fenrir">
 <button aria-label="Fermer" class="profile-close" type="button">×</button>
 <div class="profile-hero">
-<img alt="Photo de Fenrir" class="profile-photo profile-photo-fenrir profile-photo-img" src="image-007-e4e5e189e66edfac.jpg" style="object-position:24% 38%;"/>
+<img alt="Photo de Fenrir" class="profile-photo profile-photo-fenrir profile-photo-img" src="assets/images/image-007-e4e5e189e6.jpg" style="object-position:24% 38%;"/>
 <div>
 <p class="eyebrow">Les Enfants du Ragnarök</p>
 <h2 id="profile-title-fenrir">Fenrir</h2>
 <p class="profile-subtitle">Le Petit Loup au Grand Cœur</p>
-<span class="profile-status disponible">Disponible à l’adoption</span>
+<span class="profile-status adopte">Adopté</span>
+<p class="profile-update">Adopté le 15 septembre 2026 par Lana et Fen dans le Val-d’Oise (95). Il s’appelle désormais Teto.</p>
 <blockquote>« Même les plus grands loups ont un jour eu besoin d'être protégés. »</blockquote>
 </div>
 </div>
@@ -2395,7 +2440,7 @@ Votre navigateur ne permet pas de lire cette vidéo.
 <p>👧 Enfants</p>
 <p>✔️ À l’aise avec des enfants respectueux.</p>
 </section>
-<section aria-label="Évolution avant et aujourd’hui" class="evolution-v5"><h3>Son évolution</h3><div class="evolution-labels"><span>🌙 Avant</span><span class="evolution-arrow">← →</span><span>Aujourd’hui ✨</span></div><div class="evolution-grid"><figure><img alt="Fenrir avant sa prise en charge" class="evolution-photo evolution-before evolution-fenrir" loading="lazy" src="image-045-c6440b110a339803.jpg"/></figure><figure><img alt="Fenrir aujourd’hui" class="evolution-photo evolution-now evolution-fenrir" loading="lazy" src="image-007-e4e5e189e66edfac.jpg"/></figure></div></section><section>
+<section aria-label="Évolution avant et aujourd’hui" class="evolution-v5"><h3>Son évolution</h3><div class="evolution-labels"><span>🌙 Avant</span><span class="evolution-arrow">← →</span><span>Aujourd’hui ✨</span></div><div class="evolution-grid"><figure><img alt="Fenrir avant sa prise en charge" class="evolution-photo evolution-before evolution-fenrir" loading="lazy" src="assets/images/image-050-c6440b110a.jpg"/></figure><figure><img alt="Fenrir aujourd’hui" class="evolution-photo evolution-now evolution-fenrir" loading="lazy" src="assets/images/image-007-e4e5e189e6.jpg"/></figure></div></section><section>
 <h3>Le mot de Fenrir</h3>
 <p>"J'aime découvrir tout ce qui m'entoure. Un nouveau jouet, une nouvelle odeur ou un nouveau carton deviennent rapidement une aventure. Et après avoir bien joué... je ne dis jamais non à quelques caresses."</p>
 </section>
@@ -2423,15 +2468,16 @@ Votre navigateur ne permet pas de lire cette vidéo.
 <a class="btn secondary" href="#parrainage">Le parrainer</a>
 </div>
 </dialog>
-<dialog aria-labelledby="profile-title-hati" class="profile-dialog" data-status="disponible" id="profile-hati">
+<dialog aria-labelledby="profile-title-hati" class="profile-dialog" data-status="adopte" id="profile-hati">
 <button aria-label="Fermer" class="profile-close" type="button">×</button>
 <div class="profile-hero">
-<img alt="Photo de Hati" class="profile-photo profile-photo-hati profile-photo-img" src="image-008-25f51ba5b96344e2.jpg" style="object-position:82% 34%;"/>
+<img alt="Photo de Hati" class="profile-photo profile-photo-hati profile-photo-img" src="assets/images/image-008-25f51ba5b9.jpg" style="object-position:82% 34%;"/>
 <div>
 <p class="eyebrow">Les Enfants du Ragnarök</p>
 <h2 id="profile-title-hati">Hati</h2>
 <p class="profile-subtitle">L'Éclat de Minuit</p>
-<span class="profile-status disponible">Disponible à l’adoption</span>
+<span class="profile-status adopte">Adopté</span>
+<p class="profile-update">Adopté le 15 septembre 2026 par Lana et Fen dans le Val-d’Oise (95).</p>
 <blockquote>« La confiance grandit pas à pas, jusqu'à devenir une évidence. »</blockquote>
 </div>
 </div>
@@ -2467,7 +2513,7 @@ Votre navigateur ne permet pas de lire cette vidéo.
 <p>👧 Enfants</p>
 <p>✔️ À l’aise avec des enfants respectueux.</p>
 </section>
-<section aria-label="Évolution avant et aujourd’hui" class="evolution-v5"><h3>Son évolution</h3><div class="evolution-labels"><span>🌙 Avant</span><span class="evolution-arrow">← →</span><span>Aujourd’hui ✨</span></div><div class="evolution-grid"><figure><img alt="Hati et Loki lors de leur arrivée à l’association — photo utilisée pour Hati" class="evolution-photo evolution-before evolution-hati" loading="lazy" src="image-046-520dc87fa67a1b14.jpg" style="object-position:50% 38%;"/></figure><figure><img alt="Hati aujourd’hui" class="evolution-photo evolution-now evolution-hati" loading="lazy" src="image-047-80c0b7615325312b.jpg"/></figure></div></section><section>
+<section aria-label="Évolution avant et aujourd’hui" class="evolution-v5"><h3>Son évolution</h3><div class="evolution-labels"><span>🌙 Avant</span><span class="evolution-arrow">← →</span><span>Aujourd’hui ✨</span></div><div class="evolution-grid"><figure><img alt="Hati et Loki lors de leur arrivée à l’association — photo utilisée pour Hati" class="evolution-photo evolution-before evolution-hati" loading="lazy" src="assets/images/image-051-520dc87fa6.jpg" style="object-position:50% 38%;"/></figure><figure><img alt="Hati aujourd’hui" class="evolution-photo evolution-now evolution-hati" loading="lazy" src="assets/images/image-052-80c0b76153.jpg"/></figure></div></section><section>
 <h3>Le mot de Hati</h3>
 <p>"J'aime découvrir le monde un pas après l'autre. Il y a toujours quelque chose à observer, un jeu à inventer ou une caresse à venir chercher. Je profite de chaque journée avec la curiosité des chatons qui savent que de belles aventures les attendent."</p>
 </section>
@@ -2501,12 +2547,13 @@ Votre navigateur ne permet pas de lire cette vidéo.
 <dialog aria-labelledby="profile-title-loki" class="profile-dialog" data-status="adopte" id="profile-loki">
 <button aria-label="Fermer" class="profile-close" type="button">×</button>
 <div class="profile-hero">
-<img alt="Photo de Loki" class="profile-photo profile-photo-loki profile-photo-img" src="image-009-86ad02ac290e6318.jpg" style="object-position:27% 24%;"/>
+<img alt="Photo de Loki" class="profile-photo profile-photo-loki profile-photo-img" src="assets/images/image-009-86ad02ac29.jpg" style="object-position:27% 24%;"/>
 <div>
 <p class="eyebrow">Les Enfants du Ragnarök</p>
 <h2 id="profile-title-loki">Loki</h2>
 <p class="profile-subtitle">Le Charmeur</p>
 <span class="profile-status adopte adopte-vert">Adopté</span>
+<p class="profile-update">Loki a trouvé sa famille pour la vie.</p>
 <blockquote>« Les plus belles découvertes commencent souvent par une petite bêtise. »</blockquote>
 </div>
 </div>
@@ -2542,7 +2589,7 @@ Votre navigateur ne permet pas de lire cette vidéo.
 <p>👧 Enfants</p>
 <p>✔️ À l’aise avec des enfants respectueux.</p>
 </section>
-<section aria-label="Évolution avant et aujourd’hui" class="evolution-v5"><h3>Son évolution</h3><div class="evolution-labels"><span>🌙 Avant</span><span class="evolution-arrow">← →</span><span>Aujourd’hui ✨</span></div><div class="evolution-grid"><figure><img alt="Hati et Loki lors de leur arrivée à l’association — photo utilisée pour Loki" class="evolution-photo evolution-before evolution-loki" loading="lazy" src="image-046-520dc87fa67a1b14.jpg" style="object-position:50% 38%;"/></figure><figure><img alt="Loki aujourd’hui" class="evolution-photo evolution-now evolution-loki" loading="lazy" src="image-048-4f18ab5c9adf49c4.jpg"/></figure></div></section><section>
+<section aria-label="Évolution avant et aujourd’hui" class="evolution-v5"><h3>Son évolution</h3><div class="evolution-labels"><span>🌙 Avant</span><span class="evolution-arrow">← →</span><span>Aujourd’hui ✨</span></div><div class="evolution-grid"><figure><img alt="Hati et Loki lors de leur arrivée à l’association — photo utilisée pour Loki" class="evolution-photo evolution-before evolution-loki" loading="lazy" src="assets/images/image-051-520dc87fa6.jpg" style="object-position:50% 38%;"/></figure><figure><img alt="Loki aujourd’hui" class="evolution-photo evolution-now evolution-loki" loading="lazy" src="assets/images/image-053-4f18ab5c9a.jpg"/></figure></div></section><section>
 <h3>Le mot de Loki</h3>
 <p>"J'aime comprendre comment fonctionne le monde... quitte à mettre mon nez partout ! Heureusement, il y a toujours une paire de bras pour venir me récupérer après mes grandes explorations. Ensuite, je me laisse volontiers câliner avant de repartir vivre une nouvelle aventure."</p>
 </section>
@@ -2575,12 +2622,12 @@ Votre navigateur ne permet pas de lire cette vidéo.
 <dialog aria-labelledby="profile-title-ron" class="profile-dialog" data-status="disponible" id="profile-ron">
 <button aria-label="Fermer" class="profile-close" type="button">×</button>
 <div class="profile-hero">
-<img alt="Photo de Ron" class="profile-photo profile-photo-ron profile-photo-img" src="image-012-f1b6366052c8cd1a.jpg" style="object-position:52% 30%;"/>
+<img alt="Photo de Ron" class="profile-photo profile-photo-ron profile-photo-img" src="assets/images/image-012-f1b6366052.jpg" style="object-position:52% 30%;"/>
 <div>
 <p class="eyebrow">Les Audacieux</p>
 <h2 id="profile-title-ron">Ron</h2>
 <p class="profile-subtitle">Le Petit Ronron</p>
-<span class="profile-status disponible">Réservable</span>
+<span class="profile-status disponible">Disponible à l’adoption</span><p class="profile-update">Très proche de l’humain, Ron pourrait particulièrement s’épanouir auprès d’enfants ayant un grand besoin de proximité, de présence et d’affection.</p>
 <blockquote>« Les plus petits d'aujourd'hui deviennent les plus grands compagnons de demain.»</blockquote>
 </div>
 </div>
@@ -2615,7 +2662,7 @@ Votre navigateur ne permet pas de lire cette vidéo.
 <p>👧 Enfants</p>
 <p>✔️ À l’aise avec des enfants respectueux.</p>
 </section>
-<section aria-label="Évolution avant et aujourd’hui" class="evolution-v5"><h3>Son évolution</h3><div class="evolution-labels"><span>🌙 Avant</span><span class="evolution-arrow">← →</span><span>Aujourd’hui ✨</span></div><div class="evolution-grid"><figure><img alt="Ron avant sa prise en charge" class="evolution-photo evolution-before evolution-ron" loading="lazy" src="image-049-31cffc8d02b429f5.jpg"/></figure><figure><img alt="Ron aujourd’hui" class="evolution-photo evolution-now evolution-ron" loading="lazy" src="image-050-265353dfb8adfcc8.jpg"/></figure></div></section><section>
+<section aria-label="Évolution avant et aujourd’hui" class="evolution-v5"><h3>Son évolution</h3><div class="evolution-labels"><span>🌙 Avant</span><span class="evolution-arrow">← →</span><span>Aujourd’hui ✨</span></div><div class="evolution-grid"><figure><img alt="Ron avant sa prise en charge" class="evolution-photo evolution-before evolution-ron" loading="lazy" src="assets/images/image-054-31cffc8d02.jpg"/></figure><figure><img alt="Ron aujourd’hui" class="evolution-photo evolution-now evolution-ron" loading="lazy" src="assets/images/image-055-265353dfb8.jpg"/></figure></div></section><section>
 <h3>Le mot de Ron</h3>
 <p>« Avec Nova et Apollon, chaque journée peut devenir une aventure. Et quand Nova tente de passer contrôler les gamelles de la chatterie, je l’accompagne volontiers : la qualité mérite une inspection très attentive ! »</p>
 </section>
@@ -2692,7 +2739,7 @@ Votre navigateur ne permet pas de lire cette vidéo.
 <p>👧 Enfants</p>
 <p>✔️ À l’aise avec des enfants respectueux.</p>
 </section>
-<section aria-label="Évolution avant et aujourd’hui" class="evolution-v5"><h3>Son évolution</h3><div class="evolution-labels"><span>🌙 Avant</span><span class="evolution-arrow">← →</span><span>Aujourd’hui ✨</span></div><div class="evolution-grid"><figure><img alt="Cleo avant sa prise en charge" loading="lazy" src="image-013-b765a21cb6a221b3.jpg"/></figure><figure><img alt="Cleo aujourd’hui" loading="lazy" src="image-024-4813cf3c6b238930.jpg"/></figure></div></section><section>
+<section aria-label="Évolution avant et aujourd’hui" class="evolution-v5"><h3>Son évolution</h3><div class="evolution-labels"><span>🌙 Avant</span><span class="evolution-arrow">← →</span><span>Aujourd’hui ✨</span></div><div class="evolution-grid"><figure><img alt="Cleo avant sa prise en charge" loading="lazy" src="assets/images/image-013-b765a21cb6.jpg"/></figure><figure><img alt="Cleo aujourd’hui" loading="lazy" src="assets/images/image-024-4813cf3c6b.jpg"/></figure></div></section><section>
 <h3>Le mot de Cléo</h3>
 <p>"Je préfère prendre le temps d'observer avant de donner ma confiance. Quand quelque chose change autour de moi, j'aime comprendre la situation. Une fois rassurée, je retrouve rapidement mon calme et mes habitudes."</p>
 </section>
@@ -2727,12 +2774,13 @@ Votre navigateur ne permet pas de lire cette vidéo.
 <dialog aria-labelledby="profile-title-lisa" class="profile-dialog" data-status="disponible" id="profile-lisa">
 <button aria-label="Fermer" class="profile-close" type="button">×</button>
 <div class="profile-hero">
-<img alt="Photo de Lisa" class="profile-photo profile-photo-lisa profile-photo-img" src="image-025-cf81be6b48d24d71.jpg" style="object-position:43% 25%;"/>
+<img alt="Photo de Lisa" class="profile-photo profile-photo-lisa profile-photo-img" src="assets/images/image-025-cf81be6b48.jpg" style="object-position:43% 25%;"/>
 <div>
 <p class="eyebrow">Les Audacieux</p>
 <h2 id="profile-title-lisa">Lisa</h2>
 <p class="profile-subtitle">La Petite Insolente</p>
-<span class="profile-status disponible">Réservable — en famille d’accueil chez Solenn</span>
+<span class="profile-status disponible">Disponible uniquement en duo avec Hestia</span>
+<p class="profile-update">Lisa est proposée à l’adoption uniquement avec Hestia. Cette condition est non négociable. Elle apprécie particulièrement Hestia et s’entend plus difficilement avec les autres chats.</p>
 <blockquote>« Il suffit parfois d'un instant pour laisser une empreinte... même un peu humide. »</blockquote>
 </div>
 </div>
@@ -2761,13 +2809,13 @@ Votre navigateur ne permet pas de lire cette vidéo.
 <section class="profile-wide compat-list">
 <h3>Mes ententes</h3>
 <p>🐱 Chats</p>
-<p>✔️ Compatible avec les chats.</p>
+<p>✔️ Compatible avec les chats, dans le respect de ses choix et de son rythme.</p>
 <p>🐶 Chiens</p>
-<p>✔️ Compatible avec les chiens.</p>
+<p>✔️ Compatible avec les chiens, dans le respect de ses choix et de son rythme.</p>
 <p>👧 Enfants</p>
-<p>✔️ À l’aise avec les enfants respectueux.</p>
+<p>✔️ À l’aise avec les humains de tout âge lorsqu’ils respectent ses choix, son rythme et ses distances.</p>
 </section>
-<section aria-label="Évolution avant et aujourd’hui" class="evolution-v5"><h3>Son évolution</h3><div class="evolution-labels"><span>🌙 Avant</span><span class="evolution-arrow">← →</span><span>Aujourd’hui ✨</span></div><div class="evolution-grid"><figure><img alt="Lisa avant sa prise en charge" class="evolution-photo evolution-before evolution-lisa" loading="lazy" src="image-051-0983b00468b18590.jpg"/></figure><figure><img alt="Lisa aujourd’hui" class="evolution-photo evolution-now evolution-lisa" loading="lazy" src="image-052-b1e13546d1b017ac.jpg"/></figure></div></section><section>
+<section aria-label="Évolution avant et aujourd’hui" class="evolution-v5"><h3>Son évolution</h3><div class="evolution-labels"><span>🌙 Avant</span><span class="evolution-arrow">← →</span><span>Aujourd’hui ✨</span></div><div class="evolution-grid"><figure><img alt="Lisa avant sa prise en charge" class="evolution-photo evolution-before evolution-lisa" loading="lazy" src="assets/images/image-056-0983b00468.jpg"/></figure><figure><img alt="Lisa aujourd’hui" class="evolution-photo evolution-now evolution-lisa" loading="lazy" src="assets/images/image-057-b1e13546d1.jpg"/></figure></div></section><section>
 <h3>Le mot de Lisa</h3>
 <p>"J'aime découvrir de nouvelles choses, jouer et faire sourire les humains. Il paraît que je sais aussi me faire remarquer... mais après tout, une petite aventure rend les souvenirs encore plus beaux, non ?"</p>
 </section>
@@ -2795,19 +2843,20 @@ Votre navigateur ne permet pas de lire cette vidéo.
 </section>
 </div>
 <div class="profile-actions">
-<a class="btn primary" href="#contact">Je souhaite adopter Lisa</a>
+<a class="btn primary" href="#contact">Je souhaite adopter Lisa et Hestia</a>
 <a class="btn secondary" href="#parrainage">Le parrainer</a>
 </div>
 </dialog>
-<dialog aria-labelledby="profile-title-hestia" class="profile-dialog" data-status="observation" id="profile-hestia">
+<dialog aria-labelledby="profile-title-hestia" class="profile-dialog" data-status="disponible" id="profile-hestia">
 <button aria-label="Fermer" class="profile-close" type="button">×</button>
 <div class="profile-hero">
-<img alt="Hestia, jeune chatte tricolore" class="profile-photo profile-photo-hestia profile-photo-img" src="image-002-155162cb334d17f4.jpg" style="object-position:66% 22%;"/>
+<img alt="Hestia, jeune chatte tricolore" class="profile-photo profile-photo-hestia profile-photo-img" src="assets/images/image-002-155162cb33.jpg" style="object-position:66% 22%;"/>
 <div>
 <p class="eyebrow">Les Audacieux</p>
 <h2 id="profile-title-hestia">Hestia</h2>
 <p class="profile-subtitle">La Petite Observatrice</p>
-<span class="profile-status observation">En observation — statut d’adoption à confirmer</span>
+<span class="profile-status disponible">Disponible uniquement en duo avec Lisa</span>
+<p class="profile-update">Hestia est proposée à l’adoption uniquement avec Lisa. Cette condition est non négociable : Lisa est particulièrement attachée à elle.</p>
 <blockquote>« Observer d’abord, accorder sa confiance ensuite. »</blockquote>
 </div>
 </div>
@@ -2833,11 +2882,11 @@ Votre navigateur ne permet pas de lire cette vidéo.
 <section class="profile-wide compat-list">
 <h3>Mes ententes</h3>
 <p>🐱 Chats</p>
-<p>✔️ Compatible avec les chats.</p>
+<p>✔️ Très bonne entente avec les chats.</p>
 <p>🐶 Chiens</p>
-<p>❔ Entente non testée à ce jour.</p>
+<p>✔️ Très bonne entente avec les chiens ; elle est si à l’aise avec Némésis qu’elle la tète littéralement.</p>
 <p>👧 Enfants</p>
-<p>✔️ À l’aise avec les enfants respectueux.</p>
+<p>✔️ À l’aise avec les humains respectueux, enfants comme adultes.</p>
 </section>
 <section>
 <h3>Le mot d’Hestia</h3>
@@ -2849,58 +2898,61 @@ Votre navigateur ne permet pas de lire cette vidéo.
 </section>
 </div>
 <div class="profile-actions">
-<a class="btn primary" href="#contact">Contacter l’association à propos d’Hestia</a>
+<a class="btn primary" href="#contact">Je souhaite adopter Lisa et Hestia</a>
 <a class="btn secondary" href="#parrainage">La parrainer</a>
 </div>
-</dialog><dialog aria-labelledby="profile-title-bifrost-1" class="profile-dialog" data-status="observation" id="profile-bifrost-1">
+</dialog><dialog aria-labelledby="profile-title-bifrost-1" class="profile-dialog" data-status="adopte" id="profile-bifrost-1">
 <button aria-label="Fermer" class="profile-close" type="button">×</button>
 <div class="profile-hero">
-<img alt="Photo de Freyja" class="profile-photo-bifrost" src="bifrost-1.jpg"/>
-<div><p class="eyebrow">Les Enfants de Bifröst</p><h2 id="profile-title-bifrost-1">Freyja</h2><p class="profile-subtitle">Très affectueuse, à mettre en confiance</p><span class="profile-status observation">En observation</span><blockquote>« Très affectueuse mais à mettre en confiance. Une fois en confiance, elle recherche volontiers le contact humain. »</blockquote></div>
+<img alt="Photo de Freyja" class="profile-photo-bifrost" src="assets/images/image-026-37f574fd83.jpg"/>
+<div><p class="eyebrow">Les Enfants de Bifröst</p><h2 id="profile-title-bifrost-1">Freyja</h2><p class="profile-subtitle">Très affectueuse et proche de l’humain</p><span class="profile-status adopte adopte-vert">Adoptée</span><p class="profile-update">Freyja a trouvé sa famille pour la vie.</p><blockquote>« Très affectueuse, elle recherche volontiers la présence et le contact humains. »</blockquote></div>
 </div>
 <div class="profile-content">
 <section class="profile-wide profile-identity"><h3>Carte d’identité</h3><div class="identity-grid"><span><b>Sexe</b>Femelle</span><span><b>Date de naissance estimée</b>25/05/2026</span><span><b>Date de prise en charge</b>04/08/2026</span><span><b>Robe + poil</b>Blue tortie · Poil court</span></div></section>
-<section><h3>Portrait</h3><p>Freyja est une chatonne très affectueuse qui a besoin d’un petit temps de mise en confiance. Une fois rassurée, elle recherche volontiers le contact humain.</p></section>
-<section><h3>Mon caractère</h3><ul class="profile-bullet-list"><li>❤️ Très affectueuse</li><li>🌿 A besoin d’être mise en confiance</li><li>🤝 Recherche le contact humain une fois rassurée</li></ul></section>
-<section class="compat-list profile-wide"><h3>Mes ententes</h3><p>🐱 Chats</p><p>✔️ Compatible avec les chats.</p><p>🐶 Chiens</p><p>❔ Entente non testée à ce jour.</p><p>👧 Enfants</p><p>✔️ À l’aise avec des enfants respectueux.</p></section>
+<section><h3>Portrait</h3><p>Freyja est une chatonne très affectueuse et actuellement très proche de l’humain. Elle recherche volontiers la présence, le contact et les moments de tendresse.</p></section>
+<section><h3>Mon caractère</h3><ul class="profile-bullet-list"><li>❤️ Très affectueuse</li><li>🌿 Très proche de l’humain</li><li>🤝 Recherche volontiers le contact humain</li></ul></section>
+<section class="compat-list profile-wide"><h3>Mes ententes</h3><p>🐱 Chats</p><p>✔️ Cohabitation calme et volontaire observée avec les chats adultes du foyer.</p><p>🐶 Chiens</p><p>✔️ Cohabitation calme et volontaire observée avec Némésis, une grande chienne.</p><p>👧 Enfants</p><p>✔️ À l’aise avec des enfants respectueux.</p></section>
 <section class="profile-wide"><h3>Mon histoire</h3><p>Freyja fait partie des Enfants de Bifröst, trois chatons issus d’une chatte errante recueillie par une particulière. Pensant mettre une chatte seule en sécurité, elle a finalement découvert qu’elle n’était pas arrivée seule. Freyja et sa fratrie ont été pris en charge par Les Ombres d’Artémis le 04/08/2026.</p></section>
 </div>
-<div class="profile-actions"><a class="btn primary" href="#contact">Contacter l’association à propos de Freyja</a><a class="btn secondary" href="#parrainage">La parrainer</a></div></dialog><dialog aria-labelledby="profile-title-bifrost-2" class="profile-dialog" data-status="observation" id="profile-bifrost-2">
+<div class="profile-actions"><a class="btn secondary" href="#contact">Nous contacter</a></div></dialog><dialog aria-labelledby="profile-title-bifrost-2" class="profile-dialog" data-status="adopte" id="profile-bifrost-2">
 <button aria-label="Fermer" class="profile-close" type="button">×</button>
 <div class="profile-hero">
-<img alt="Photo de Baldr" class="profile-photo-bifrost" src="bifrost-2.jpg"/>
-<div><p class="eyebrow">Les Enfants de Bifröst</p><h2 id="profile-title-bifrost-2">Baldr</h2><p class="profile-subtitle">Une véritable boule de câlins</p><span class="profile-status observation">En observation</span><blockquote>« Véritable boule de câlins, il vient facilement vers l’humain et apprécie les interactions. »</blockquote></div>
+<img alt="Photo de Baldr" class="profile-photo-bifrost" src="assets/images/image-027-27cc6f5635.jpg"/>
+<div><p class="eyebrow">Les Enfants de Bifröst</p><h2 id="profile-title-bifrost-2">Baldr</h2><p class="profile-subtitle">Une véritable boule de câlins</p><span class="profile-status adopte">Adopté</span>
+<p class="profile-update">Adopté par Manon et Augustin le 15 septembre 2026 dans le Val-de-Marne (94). Il s’appelle désormais Djukku.</p><blockquote>« Véritable boule de câlins, il vient facilement vers l’humain et apprécie les interactions. »</blockquote></div>
 </div>
 <div class="profile-content">
 <section class="profile-wide profile-identity"><h3>Carte d’identité</h3><div class="identity-grid"><span><b>Sexe</b>Mâle</span><span><b>Date de naissance estimée</b>25/05/2026</span><span><b>Date de prise en charge</b>04/08/2026</span><span><b>Robe + poil</b>Brown mackerel tabby &amp; white · Poil court</span></div></section>
 <section><h3>Portrait</h3><p>Baldr est une véritable boule de câlins. Il vient facilement vers l’humain et apprécie les interactions.</p></section>
 <section><h3>Mon caractère</h3><ul class="profile-bullet-list"><li>❤️ Très câlin</li><li>🤝 Va facilement vers l’humain</li><li>🐾 Apprécie les interactions</li></ul></section>
-<section class="compat-list profile-wide"><h3>Mes ententes</h3><p>🐱 Chats</p><p>✔️ Compatible avec les chats.</p><p>🐶 Chiens</p><p>❔ Entente non testée à ce jour.</p><p>👧 Enfants</p><p>✔️ À l’aise avec des enfants respectueux.</p></section>
+<section class="compat-list profile-wide"><h3>Mes ententes</h3><p>🐱 Chats</p><p>✔️ Cohabitation calme et volontaire observée avec les chats adultes du foyer.</p><p>🐶 Chiens</p><p>✔️ Cohabitation calme et volontaire observée avec Némésis, une grande chienne.</p><p>👧 Enfants</p><p>✔️ À l’aise avec des enfants respectueux.</p></section>
 <section class="profile-wide"><h3>Mon histoire</h3><p>Baldr fait partie des Enfants de Bifröst, trois chatons issus d’une chatte errante recueillie par une particulière. Pensant mettre une chatte seule en sécurité, elle a finalement découvert qu’elle n’était pas arrivée seule. Baldr et sa fratrie ont été pris en charge par Les Ombres d’Artémis le 04/08/2026.</p></section>
 </div>
-<div class="profile-actions"><a class="btn primary" href="#contact">Contacter l’association à propos de Baldr</a><a class="btn secondary" href="#parrainage">Le parrainer</a></div></dialog><dialog aria-labelledby="profile-title-bifrost-3" class="profile-dialog" data-status="observation" id="profile-bifrost-3">
+<div class="profile-actions"><a class="btn primary" href="#contact">Contacter l’association à propos de Baldr</a><a class="btn secondary" href="#parrainage">Le parrainer</a></div></dialog><dialog aria-labelledby="profile-title-bifrost-3" class="profile-dialog" data-status="adopte" id="profile-bifrost-3">
 <button aria-label="Fermer" class="profile-close" type="button">×</button>
 <div class="profile-hero">
-<img alt="Photo de Máni" class="profile-photo-bifrost" src="bifrost-3.jpg"/>
-<div><p class="eyebrow">Les Enfants de Bifröst</p><h2 id="profile-title-bifrost-3">Máni</h2><p class="profile-subtitle">Calme, posé et grand dormeur</p><span class="profile-status observation">En observation</span><blockquote>« Grand dormeur de la fratrie, très calme et posé, il adore les siestes ! »</blockquote></div>
+<img alt="Photo de Máni" class="profile-photo-bifrost" src="assets/images/image-028-6faa5f3f0b.jpg"/>
+<div><p class="eyebrow">Les Enfants de Bifröst</p><h2 id="profile-title-bifrost-3">Máni</h2><p class="profile-subtitle">Calme, posé et grand dormeur</p><span class="profile-status adopte adopte-vert">Adopté</span>
+<p class="profile-update">Máni a été adopté par Annie le 27 septembre 2026 dans le Val-d’Oise (95).</p><blockquote>« Grand dormeur de la fratrie, très calme et posé, il adore les siestes ! »</blockquote></div>
 </div>
 <div class="profile-content">
 <section class="profile-wide profile-identity"><h3>Carte d’identité</h3><div class="identity-grid"><span><b>Sexe</b>Mâle</span><span><b>Date de naissance estimée</b>25/05/2026</span><span><b>Date de prise en charge</b>04/08/2026</span><span><b>Robe + poil</b>Brown mackerel tabby · Poil court</span></div></section>
 <section><h3>Portrait</h3><p>Máni est le grand dormeur de la fratrie. Très calme et posé, il apprécie particulièrement les longues siestes.</p></section>
 <section><h3>Mon caractère</h3><ul class="profile-bullet-list"><li>😴 Grand dormeur</li><li>🌿 Très calme</li><li>🧘 Posé</li><li>💤 Grand amateur de siestes</li></ul></section>
-<section class="compat-list profile-wide"><h3>Mes ententes</h3><p>🐱 Chats</p><p>✔️ Compatible avec les chats.</p><p>🐶 Chiens</p><p>❔ Entente non testée à ce jour.</p><p>👧 Enfants</p><p>✔️ À l’aise avec des enfants respectueux.</p></section>
+<section class="compat-list profile-wide"><h3>Mes ententes</h3><p>🐱 Chats</p><p>✔️ Cohabitation calme et volontaire observée avec les chats adultes du foyer.</p><p>🐶 Chiens</p><p>✔️ Cohabitation calme et volontaire observée avec Némésis, une grande chienne.</p><p>👧 Enfants</p><p>✔️ À l’aise avec des enfants respectueux.</p></section>
 <section class="profile-wide"><h3>Mon histoire</h3><p>Máni fait partie des Enfants de Bifröst, trois chatons issus d’une chatte errante recueillie par une particulière. Pensant mettre une chatte seule en sécurité, elle a finalement découvert qu’elle n’était pas arrivée seule. Máni et sa fratrie ont été pris en charge par Les Ombres d’Artémis le 04/08/2026.</p></section>
 </div>
-<div class="profile-actions"><a class="btn primary" href="#contact">Contacter l’association à propos de Máni</a><a class="btn secondary" href="#parrainage">Le parrainer</a></div></dialog>
+<div class="profile-actions"><a class="btn secondary" href="#contact">Nous contacter</a></div></dialog>
 <dialog aria-labelledby="profile-title-sirius" class="profile-dialog" data-status="adopte" id="profile-sirius">
 <button aria-label="Fermer" class="profile-close" type="button">×</button>
 <div class="profile-hero">
-<img alt="Photo de Sirius" class="profile-photo profile-photo-sirius profile-photo-img" src="image-015-8118d5241736cfcf.jpg" style="object-position:18% 38%;"/>
+<img alt="Photo de Sirius" class="profile-photo profile-photo-sirius profile-photo-img" src="assets/images/image-015-8118d52417.jpg" style="object-position:18% 38%;"/>
 <div>
 <p class="eyebrow">Les Âmes Nomades</p>
 <h2 id="profile-title-sirius">Sirius</h2>
 <p class="profile-subtitle">L'Étoile Fidèle</p>
 <span class="profile-status adopte adopte-vert">Adoptée</span>
+<p class="profile-update">Sirius a trouvé sa famille pour la vie.</p>
 <blockquote>« Comme le graphite avant le diamant, certaines beautés ne révèlent leur véritable éclat qu'avec le temps. »</blockquote>
 </div>
 </div>
@@ -2936,7 +2988,7 @@ Votre navigateur ne permet pas de lire cette vidéo.
 <p>👧 Enfants</p>
 <p>✔️ À l’aise avec des enfants respectueux.</p>
 </section>
-<section aria-label="Évolution avant et aujourd’hui" class="evolution-v5"><h3>Son évolution</h3><div class="evolution-labels"><span>🌙 Avant</span><span class="evolution-arrow">← →</span><span>Aujourd’hui ✨</span></div><div class="evolution-grid"><figure><img alt="Sirius avant sa prise en charge" class="evolution-photo evolution-before evolution-sirius" loading="lazy" src="image-053-f02c280f95fa726d.jpg"/></figure><figure><img alt="Sirius aujourd’hui" class="evolution-photo evolution-now evolution-sirius" loading="lazy" src="image-054-b96ddd8b9782c703.jpg"/></figure></div></section><section>
+<section aria-label="Évolution avant et aujourd’hui" class="evolution-v5"><h3>Son évolution</h3><div class="evolution-labels"><span>🌙 Avant</span><span class="evolution-arrow">← →</span><span>Aujourd’hui ✨</span></div><div class="evolution-grid"><figure><img alt="Sirius avant sa prise en charge" class="evolution-photo evolution-before evolution-sirius" loading="lazy" src="assets/images/image-058-f02c280f95.jpg"/></figure><figure><img alt="Sirius aujourd’hui" class="evolution-photo evolution-now evolution-sirius" loading="lazy" src="assets/images/image-059-b96ddd8b97.jpg"/></figure></div></section><section>
 <h3>Le mot de Sirius</h3>
 <p>"J'aime prendre le temps de regarder le monde avant d'aller à sa rencontre. Une fois que je connais les lieux et les personnes qui m'entourent, je profite pleinement de chaque instant, qu'il s'agisse d'une partie de jeu ou d'un moment de calme partagé."</p>
 </section>
@@ -2970,12 +3022,13 @@ Votre navigateur ne permet pas de lire cette vidéo.
 <dialog aria-labelledby="profile-title-hermione" class="profile-dialog" data-status="adopte" id="profile-hermione">
 <button aria-label="Fermer" class="profile-close" type="button">×</button>
 <div class="profile-hero">
-<img alt="Photo de Hermione" class="profile-photo profile-photo-hermione profile-photo-img" src="image-016-01ce5a97b58fb5bb.jpg" style="object-position:50% 20%;"/>
+<img alt="Photo de Hermione" class="profile-photo profile-photo-hermione profile-photo-img" src="assets/images/image-016-01ce5a97b5.jpg" style="object-position:50% 20%;"/>
 <div>
 <p class="eyebrow">Les Âmes Nomades</p>
 <h2 id="profile-title-hermione">Hermione</h2>
 <p class="profile-subtitle">La Sage</p>
 <span class="profile-status adopte adopte-vert">Adoptée</span>
+<p class="profile-update">Hermione a trouvé sa famille pour la vie.</p>
 <blockquote>« La confiance est le premier pas vers toutes les aventures. »</blockquote>
 </div>
 </div>
@@ -3010,7 +3063,7 @@ Votre navigateur ne permet pas de lire cette vidéo.
 <p>👧 Enfants</p>
 <p>✔️ À l’aise avec des enfants respectueux.</p>
 </section>
-<section aria-label="Évolution avant et aujourd’hui" class="evolution-v5"><h3>Son évolution</h3><div class="evolution-labels"><span>🌙 Avant</span><span class="evolution-arrow">← →</span><span>Aujourd’hui ✨</span></div><div class="evolution-grid"><figure><img alt="Hermione avant sa prise en charge" class="evolution-photo evolution-before evolution-hermione" loading="lazy" src="image-055-e0a5bc5e3198b46b.jpg"/></figure><figure><img alt="Hermione aujourd’hui" class="evolution-photo evolution-now evolution-hermione" loading="lazy" src="image-016-01ce5a97b58fb5bb.jpg"/></figure></div></section><section>
+<section aria-label="Évolution avant et aujourd’hui" class="evolution-v5"><h3>Son évolution</h3><div class="evolution-labels"><span>🌙 Avant</span><span class="evolution-arrow">← →</span><span>Aujourd’hui ✨</span></div><div class="evolution-grid"><figure><img alt="Hermione avant sa prise en charge" class="evolution-photo evolution-before evolution-hermione" loading="lazy" src="assets/images/image-060-e0a5bc5e31.jpg"/></figure><figure><img alt="Hermione aujourd’hui" class="evolution-photo evolution-now evolution-hermione" loading="lazy" src="assets/images/image-016-01ce5a97b5.jpg"/></figure></div></section><section>
 <h3>Le mot de Hermione</h3>
 <p>"J'aime comprendre ce qui m'entoure. Observer, jouer, grimper et revenir chercher une caresse lorsque j'en ai envie. Ma curiosité me pousse souvent à découvrir de nouvelles choses... mais je garde toujours un œil sur ceux que j'aime."</p>
 </section>
@@ -3043,12 +3096,13 @@ Votre navigateur ne permet pas de lire cette vidéo.
 <dialog aria-labelledby="profile-title-arlequeen" class="profile-dialog" data-status="adopte" id="profile-arlequeen">
 <button aria-label="Fermer" class="profile-close" type="button">×</button>
 <div class="profile-hero">
-<img alt="Photo d’Arlequeen" class="profile-photo profile-photo-arlequeen profile-photo-img" src="image-020-60fae8bb878ec5fe.jpg" style="object-position:50% 34%;"/>
+<img alt="Photo d’Arlequeen" class="profile-photo profile-photo-arlequeen profile-photo-img" src="assets/images/image-020-60fae8bb87.jpg" style="object-position:50% 34%;"/>
 <div>
 <p class="eyebrow">Les Âmes Nomades</p>
 <h2 id="profile-title-arlequeen">Arlequeen</h2>
 <p class="profile-subtitle">Le Cœur sur Pattes</p>
 <span class="profile-status adopte adopte-vert">Adoptée</span>
+<p class="profile-update">Arlequeen a trouvé sa famille pour la vie.</p>
 <blockquote>« Certaines présences deviennent indispensables sans même qu'on s'en aperçoive. »</blockquote>
 </div>
 </div>
@@ -3111,19 +3165,20 @@ Votre navigateur ne permet pas de lire cette vidéo.
 <p>Le marbrage smoke le plus fort et le plus contrasté des deux sœurs.</p>
 </section>
 </div>
-<section aria-label="Évolution avant et aujourd’hui" class="evolution-v5"><h3>Son évolution</h3><div class="evolution-labels"><span>🌙 Avant</span><span class="evolution-arrow">← →</span><span>Aujourd’hui ✨</span></div><div class="evolution-grid"><figure><img alt="Arlequeen avant sa prise en charge" class="evolution-photo evolution-before evolution-arlequeen" loading="lazy" src="image-056-addc24ed2ebf2640.jpg"/></figure><figure><img alt="Arlequeen aujourd’hui" class="evolution-photo evolution-now evolution-arlequeen" loading="lazy" src="image-057-f05993eb57808dae.jpg"/></figure></div></section><div class="profile-actions">
+<section aria-label="Évolution avant et aujourd’hui" class="evolution-v5"><h3>Son évolution</h3><div class="evolution-labels"><span>🌙 Avant</span><span class="evolution-arrow">← →</span><span>Aujourd’hui ✨</span></div><div class="evolution-grid"><figure><img alt="Arlequeen avant sa prise en charge" class="evolution-photo evolution-before evolution-arlequeen" loading="lazy" src="assets/images/image-061-addc24ed2e.jpg"/></figure><figure><img alt="Arlequeen aujourd’hui" class="evolution-photo evolution-now evolution-arlequeen" loading="lazy" src="assets/images/image-062-f05993eb57.jpg"/></figure></div></section><div class="profile-actions">
 <a class="btn primary" href="#proteges">Découvrir les autres protégés</a>
 <a class="btn secondary" href="#parrainage">La parrainer</a></div>
 </dialog>
 <dialog aria-labelledby="profile-title-tigrou" class="profile-dialog" data-status="adopte" id="profile-tigrou">
 <button aria-label="Fermer" class="profile-close" type="button">×</button>
 <div class="profile-hero">
-<img alt="Photo de Tigrou" class="profile-photo profile-photo-tigrou profile-photo-img" src="image-017-a6821f7878ca48c8.jpg" style="object-position:50% 20%;"/>
+<img alt="Photo de Tigrou" class="profile-photo profile-photo-tigrou profile-photo-img" src="assets/images/image-017-a6821f7878.jpg" style="object-position:50% 20%;"/>
 <div>
 <p class="eyebrow">Les Âmes Nomades</p>
 <h2 id="profile-title-tigrou">Tigrou</h2>
 <p class="profile-subtitle">La Tornade Rayée</p>
 <span class="profile-status adopte adopte-vert">Adoptée</span>
+<p class="profile-update">Tigrou a trouvé sa famille pour la vie.</p>
 <blockquote>« L'énergie est une promesse d'avenir. »</blockquote>
 </div>
 </div>
@@ -3159,7 +3214,7 @@ Votre navigateur ne permet pas de lire cette vidéo.
 <p>👧 Enfants</p>
 <p>✔️ À l’aise avec des enfants respectueux.</p>
 </section>
-<section aria-label="Évolution avant et aujourd’hui" class="evolution-v5"><h3>Son évolution</h3><div class="evolution-labels"><span>🌙 Avant</span><span class="evolution-arrow">← →</span><span>Aujourd’hui ✨</span></div><div class="evolution-grid"><figure><img alt="Tigrou avant sa prise en charge" class="evolution-photo evolution-before evolution-tigrou" loading="lazy" src="image-058-d67946d96ae0beea.jpg"/></figure><figure><img alt="Tigrou aujourd’hui" class="evolution-photo evolution-now evolution-tigrou" loading="lazy" src="image-017-a6821f7878ca48c8.jpg"/></figure></div></section><section>
+<section aria-label="Évolution avant et aujourd’hui" class="evolution-v5"><h3>Son évolution</h3><div class="evolution-labels"><span>🌙 Avant</span><span class="evolution-arrow">← →</span><span>Aujourd’hui ✨</span></div><div class="evolution-grid"><figure><img alt="Tigrou avant sa prise en charge" class="evolution-photo evolution-before evolution-tigrou" loading="lazy" src="assets/images/image-063-d67946d96a.jpg"/></figure><figure><img alt="Tigrou aujourd’hui" class="evolution-photo evolution-now evolution-tigrou" loading="lazy" src="assets/images/image-017-a6821f7878.jpg"/></figure></div></section><section>
 <h3>Le mot de Tigrou</h3>
 <p>« Pourquoi marcher quand on peut courir ? Pourquoi contourner un obstacle quand on peut grimper dessus ? J’aime jouer, découvrir et profiter de tout ce qui m’entoure. Mais il y avait une chose encore plus importante : mon biberon ! Avec Hermione, nous grimpions sur Marion à peine entrée dans la chatterie pour réclamer le biberon tant attendu. »</p>
 </section>
@@ -3194,11 +3249,11 @@ Votre navigateur ne permet pas de lire cette vidéo.
 <dialog aria-labelledby="profile-title-calliope" class="profile-dialog" data-status="adopte" id="profile-calliope">
 <button aria-label="Fermer" class="profile-close" type="button">×</button>
 <div class="profile-hero">
-<img alt="Photo de Calliope" class="profile-photo profile-photo-calliope profile-photo-img" src="image-003-062504ead94bcb17.jpg" style="object-position:50% 30%;"/>
+<img alt="Photo de Calliope" class="profile-photo profile-photo-calliope profile-photo-img" src="assets/images/image-003-062504ead9.jpg" style="object-position:50% 30%;"/>
 <div>
 <p class="eyebrow">Les Veilleurs</p>
 <h2 id="profile-title-calliope">Calliope</h2>
-<span class="profile-status adopte">Adopté</span>
+<span class="profile-status adopte">Adopté</span><p class="profile-update">Calliope a été adopté par Sonya le 21 juin 2026 dans les Hauts-de-Seine (92).</p>
 <blockquote>« La force la plus rassurante est souvent la plus douce. »</blockquote>
 </div>
 </div>
@@ -3233,7 +3288,7 @@ Votre navigateur ne permet pas de lire cette vidéo.
 <p>👧 Enfants</p>
 <p>✔️ À l’aise avec des enfants respectueux.</p>
 </section>
-<section aria-label="Évolution avant et aujourd’hui" class="evolution-v5"><h3>Son évolution</h3><div class="evolution-labels"><span>🌙 Avant</span><span class="evolution-arrow">← →</span><span>Aujourd’hui ✨</span></div><div class="evolution-grid"><figure><img alt="Calliope avant sa prise en charge" class="evolution-photo evolution-before evolution-calliope" loading="lazy" src="image-059-f7de7bea1a302c1c.jpg"/></figure><figure><img alt="Calliope aujourd’hui" class="evolution-photo evolution-now evolution-calliope" loading="lazy" src="image-003-062504ead94bcb17.jpg"/></figure></div></section><section>
+<section aria-label="Évolution avant et aujourd’hui" class="evolution-v5"><h3>Son évolution</h3><div class="evolution-labels"><span>🌙 Avant</span><span class="evolution-arrow">← →</span><span>Aujourd’hui ✨</span></div><div class="evolution-grid"><figure><img alt="Calliope avant sa prise en charge" class="evolution-photo evolution-before evolution-calliope" loading="lazy" src="assets/images/image-064-f7de7bea1a.jpg"/></figure><figure><img alt="Calliope aujourd’hui" class="evolution-photo evolution-now evolution-calliope" loading="lazy" src="assets/images/image-003-062504ead9.jpg"/></figure></div></section><section>
 <h3>Le mot de Calliope</h3>
 <p>"On dit souvent que je suis le plus grand... mais moi, ce que je préfère, c'est être tout simplement près des humains que j'aime. Une caresse, un endroit tranquille et un peu de compagnie me suffisent pour être heureux."</p>
 </section>
@@ -3267,7 +3322,7 @@ Votre navigateur ne permet pas de lire cette vidéo.
 </dialog>
 </main>
 <footer>
-<img alt="" src="image-026-8b83b3517797f0a3.png"/>
+<img alt="" src="assets/images/image-029-8b83b35177.png"/>
 <div>
 <strong>Les Ombres d'Artémis</strong>
 <p>Association de protection féline • Ivry-sur-Seine</p>
