@@ -1092,13 +1092,7 @@ pointer-events:none
 <div class="animal-card-overlay"><span class="status disponible">Disponible</span><h3>Perceval</h3><p>Curieux, joueur et affectueux, Perceval explore volontiers son environnement avant de revenir chercher jeux et câlins.</p><span class="flip-hint">Touchez pour voir sa fiche, l’adopter ou le parrainer</span></div>
 </div><div class="flip-card-back"><p class="eyebrow">Les Ombres d’Artémis</p><h3>Perceval</h3><button class="flip-back-button" type="button">Revoir la photo</button><nav aria-label="Actions pour Perceval" class="card-actions"><a class="card-action card-action-profile" data-profile-link="perceval" href="#fiche-perceval"><span aria-hidden="true">📖</span><span>Accéder à sa fiche</span></a><a class="card-action card-action-sponsorship" data-sponsorship-link="perceval" href="#parrainage-perceval"><span aria-hidden="true">🤝</span><span>Le parrainer</span></a></nav></div></div>
 </article>
-<article aria-label="Ron : retourner la carte pour afficher les actions" class="animal-card flip-card" data-status="disponible" tabindex="0">
-<div class="flip-card-inner"><div class="flip-card-front">
-<button aria-label="Ajouter Ron aux coups de cœur" aria-pressed="false" class="favorite-button" data-favorite="ron" type="button">♡</button>
-<div aria-label="Photo de Ron" class="animal-photo animal-photo-ron" role="img"></div>
-<div class="animal-card-overlay"><span class="status disponible">Disponible</span><h3>Ron</h3><p>Très proche de l’humain, joueur et enthousiaste, Ron recherche volontiers présence, attention et affection.</p><span class="flip-hint">Touchez pour voir sa fiche, l’adopter ou le parrainer</span></div>
-</div><div class="flip-card-back"><p class="eyebrow">Les Audacieux</p><h3>Ron</h3><button class="flip-back-button" type="button">Revoir la photo</button><nav aria-label="Actions pour Ron" class="card-actions"><a class="card-action card-action-profile" data-profile-link="ron" href="#fiche-ron"><span aria-hidden="true">📖</span><span>Accéder à sa fiche</span></a><a class="card-action card-action-adoption" data-adoption-link="ron" href="#adoption-ron"><span aria-hidden="true">♡</span><span>L’adopter</span></a><a class="card-action card-action-sponsorship" data-sponsorship-link="ron" href="#parrainage-ron"><span aria-hidden="true">🤝</span><span>Le parrainer</span></a></nav></div></div>
-</article>
+
 <article aria-label="Cléo : retourner la carte pour afficher les actions" class="animal-card flip-card" data-status="disponible" tabindex="0">
 <div class="flip-card-inner">
 <div class="flip-card-front">
@@ -1145,6 +1139,14 @@ pointer-events:none
 <div aria-label="Hestia, jeune chatte tricolore" class="animal-photo animal-photo-hestia" role="img"></div>
 <div class="animal-card-overlay"><span class="status disponible">Adoption en duo uniquement</span><h3>Hestia</h3><p>Douce, observatrice et très sociable, Hestia s’entend avec les chats, les chiens et les humains respectueux. Elle est proposée uniquement avec Lisa.</p><span class="flip-hint">Touchez pour découvrir sa fiche et le duo</span></div>
 </div><div class="flip-card-back"><p class="eyebrow">Les Audacieux</p><h3>Hestia</h3><button class="flip-back-button" type="button">Revoir la photo</button><nav aria-label="Actions pour Hestia" class="card-actions"><a class="card-action card-action-profile" data-profile-link="hestia" href="#fiche-hestia"><span aria-hidden="true">📖</span><span>Accéder à sa fiche</span></a><a class="card-action card-action-adoption" href="#contact"><span aria-hidden="true">♡</span><span>Adopter le duo</span></a><a class="card-action card-action-sponsorship" data-sponsorship-link="hestia" href="#parrainage-hestia"><span aria-hidden="true">🤝</span><span>La parrainer</span></a></nav></div></div>
+</article>
+<article aria-label="Ron : retourner la carte pour afficher les actions" class="animal-card flip-card" data-status="adopte" tabindex="0">
+<div class="flip-card-inner"><div class="flip-card-front">
+<button aria-label="Ajouter Ron aux coups de cœur" aria-pressed="false" class="favorite-button" data-favorite="ron" type="button">♡</button>
+<div aria-label="Photo de Ron" class="animal-photo animal-photo-ron" role="img"></div>
+<span class="adoption-ribbon">A trouvé sa famille pour la vie</span>
+<div class="animal-card-overlay"><span class="status adopte">Adopté</span><h3>Ron</h3><p>Très proche de l’humain, joueur et enthousiaste, Ron recherche volontiers présence, attention et affection.</p><span class="flip-hint">Touchez pour découvrir sa fiche et son histoire</span></div>
+</div><div class="flip-card-back"><p class="eyebrow">Les Audacieux</p><h3>Ron</h3><button class="flip-back-button" type="button">Revoir la photo</button><nav aria-label="Actions pour Ron" class="card-actions"><a class="card-action card-action-profile" data-profile-link="ron" href="#fiche-ron"><span aria-hidden="true">📖</span><span>Accéder à sa fiche</span></a><a class="card-action card-action-sponsorship" data-sponsorship-link="ron" href="#parrainage-ron"><span aria-hidden="true">🤝</span><span>Le parrainer</span></a></nav></div></div>
 </article>
 <article aria-label="Karadoc : retourner la carte pour afficher les actions" class="animal-card flip-card" data-status="adopte" tabindex="0">
 <div class="flip-card-inner">
@@ -2619,7 +2621,7 @@ Votre navigateur ne permet pas de lire cette vidéo.
 <a class="btn primary" href="#proteges">Découvrir les autres protégés</a>
 <a class="btn secondary" href="#parrainage">Le parrainer</a></div>
 </dialog>
-<dialog aria-labelledby="profile-title-ron" class="profile-dialog" data-status="disponible" id="profile-ron">
+<dialog aria-labelledby="profile-title-ron" class="profile-dialog" data-status="adopte" id="profile-ron">
 <button aria-label="Fermer" class="profile-close" type="button">×</button>
 <div class="profile-hero">
 <img alt="Photo de Ron" class="profile-photo profile-photo-ron profile-photo-img" src="image-012-f1b6366052.jpg" style="object-position:52% 30%;"/>
@@ -2627,7 +2629,8 @@ Votre navigateur ne permet pas de lire cette vidéo.
 <p class="eyebrow">Les Audacieux</p>
 <h2 id="profile-title-ron">Ron</h2>
 <p class="profile-subtitle">Le Petit Ronron</p>
-<span class="profile-status disponible">Disponible à l’adoption</span><p class="profile-update">Très proche de l’humain, Ron pourrait particulièrement s’épanouir auprès d’enfants ayant un grand besoin de proximité, de présence et d’affection.</p>
+<span class="profile-status adopte">Adopté</span>
+<p class="profile-update">Ron a été adopté par Stéphanie et Chakir le 18 octobre 2026 dans les Hauts-de-Seine (92).</p><p class="profile-update">Très proche de l’humain, Ron pourrait particulièrement s’épanouir auprès d’enfants ayant un grand besoin de proximité, de présence et d’affection.</p>
 <blockquote>« Les plus petits d'aujourd'hui deviennent les plus grands compagnons de demain.»</blockquote>
 </div>
 </div>
@@ -2638,7 +2641,7 @@ Votre navigateur ne permet pas de lire cette vidéo.
 </section>
 <section>
 <h3>Portrait</h3>
-<p>Ron fait partie des Audacieux. Il partage le quotidien des Premières Ombres dans leur espace de vie, en dehors de la chatterie. Il reste disponible.</p>
+<p>Ron fait partie des Audacieux. Avant son adoption, il partageait le quotidien des Premières Ombres dans leur espace de vie, en dehors de la chatterie.</p>
 <p>Curieux, joueur et toujours prêt à suivre le mouvement, il est le complice attitré de Nova et d’Apollon. À trois, ils transforment volontiers le quotidien en terrain d’aventure.</p>
 <p>Avec Nova, Ron tente régulièrement de passer faire un très sérieux contrôle qualité des gamelles de la chatterie. Sa robe rousse lumineuse le rend immédiatement reconnaissable, mais c’est surtout son enthousiasme communicatif qui marque les esprits.</p>
 </section>
@@ -2669,8 +2672,8 @@ Votre navigateur ne permet pas de lire cette vidéo.
 <section>
 <h3>Mon histoire</h3>
 <p>Ron a rejoint Les Ombres d’Artémis alors qu’il était encore très jeune.</p>
-<p>Il partage aujourd’hui le quotidien des Premières Ombres dans leur espace de vie, en dehors de la chatterie, sans faire partie de ce groupe fondateur. Très vite, il a trouvé sa place auprès de Nova et d’Apollon, ses complices de chaque aventure.</p>
-<p>Avec Nova, il tente régulièrement de passer dans la chatterie pour mener une inspection improvisée des gamelles. Cette proximité avec les Premières Ombres ne change pas son statut : Ron attend toujours sa famille pour la vie.</p>
+<p>Avant son adoption, il partageait le quotidien des Premières Ombres dans leur espace de vie, en dehors de la chatterie, sans faire partie de ce groupe fondateur. Très vite, il a trouvé sa place auprès de Nova et d’Apollon, ses complices de chaque aventure.</p>
+<p>Avec Nova, il tentait régulièrement de passer dans la chatterie pour mener une inspection improvisée des gamelles. Le 18 octobre 2026, Ron a trouvé sa famille pour la vie.</p>
 </section>
 <section>
 <h3>Anecdotes marquantes</h3>
@@ -2691,7 +2694,7 @@ Votre navigateur ne permet pas de lire cette vidéo.
 </section>
 </div>
 <div class="profile-actions">
-<a class="btn primary" href="#adopter">Adopter Ron</a>
+<a class="btn primary" href="#proteges">Découvrir les autres protégés</a>
 <a class="btn secondary" href="#parrainage">Le parrainer</a>
 </div>
 </dialog>
